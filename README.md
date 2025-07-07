@@ -35,3 +35,8 @@ Bu rehberin amacı, C# ile SQL Server arasında bağlantı kurma sürecine dair 
 - [Connection String](docs/03-connection-string.md)
 - [Olası Hatalar ve Kritik Noktalar](docs/04-olasi-hatalar-ve-kritik-noktalar.md)
 - [SQL Verisini C#'ta Kullanma](docs/05-sql-verisini-kullanma-ornegi.md)
+---
+
+## Lisans
+
+Bu repodaki içerikler [MIT Lisansı](LICENSE) ile korunmaktadır.
