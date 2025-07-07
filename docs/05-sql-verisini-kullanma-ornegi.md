@@ -1,1 +1,1 @@
-#SQL Verisini C#'ta Kullanma Örneği
+# SQL Verisini C#'ta Kullanma Örneği
