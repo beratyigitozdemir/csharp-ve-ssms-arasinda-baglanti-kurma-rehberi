@@ -1,1 +1,1 @@
-# Veritabanı ve WinForms Projesi Oluşturma
+#Veritabanı ve WinForms Projesi Oluşturma

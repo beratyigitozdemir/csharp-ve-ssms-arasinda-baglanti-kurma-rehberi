@@ -1,1 +1,1 @@
-# Bağlantı Ayarları ve NuGet Paketi Kurulumu
+#Bağlantı Ayarları ve NuGet Paketi Kurulumu
