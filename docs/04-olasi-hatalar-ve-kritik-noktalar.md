@@ -1,0 +1,1 @@
+# Olası Hatalar ve Kritik Noktalar
