@@ -40,4 +40,4 @@ C# ile SQL Server arasında bağlantı kurma sürecine dair temel kavramları bi
 ## Lisans
 
 Bu repodaki içerikler [MIT Lisansı](LICENSE) ile korunmaktadır.
----
+
