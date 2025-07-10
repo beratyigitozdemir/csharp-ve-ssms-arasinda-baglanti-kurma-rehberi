@@ -42,8 +42,7 @@ Visual Studio'yu açın ve bir Windows Forms App (.NET Framework) projesi oluşt
 **2 adet TextBox** → Veri girmek için  
 **DataGridView** → Girdiğimiz verileri görüntülemek için
 
-Form bileşenlerini ekledikten sonra aşağıdaki gibi adlandırmanız önerilir:
-
+**Form bileşenlerini ekledikten sonra aşağıdaki gibi adlandırınız:**
 **txtAd** → Ad için kullanılacak TextBox  
 **txtSoyad** → Soyad için kullanılacak TextBox
 **btnKaydet** → Buton, verileri yüklemek için kullanılacak  
