@@ -37,17 +37,18 @@ Bu kodu çalıştırdığınızda aşağıdaki gibi bir çıktı aldıysanız, v
 
 Visual Studio'yu açın ve bir Windows Forms App (.NET Framework) projesi oluşturun.
 
-**Örneğin;** Form üzerine aşağıdaki bileşenleri ekleyelim.
-**Button;** Veri yüklemek için.
-**2 adet TextBox;** Veri girmek için.
-**DatagridView;** Girdiğimiz verileri görüntülemek için.
+**Örneğin;** Form üzerine aşağıdaki bileşenleri ekleyelim:  
+**Button** → Veri yüklemek için  
+**2 adet TextBox** → Veri girmek için  
+**DataGridView** → Girdiğimiz verileri görüntülemek için
 
 Form bileşenlerini ekledikten sonra aşağıdaki gibi adlandırmanız önerilir:
 
-**txtAd** → Ad için TextBox.
-**txtSoyad** → Soyad için TextBox.
-**btnKaydet** → Buton, verileri yüklemek için kullanılacak.
-**dgvKisiler** → Veritabanından gelen verileri görüntüleyeceğimiz DataGridView.
+**txtAd** → Ad için kullanılacak TextBox  
+**txtSoyad** → Soyad için kullanılacak TextBox
+**btnKaydet** → Buton, verileri yüklemek için kullanılacak  
+**dgvKisiler** → Veritabanından gelen verileri görüntüleyeceğimiz DataGridView
+
 
 Aşağıda, form üzerinde bileşenlerin nasıl yerleştirildiğine dair bir örnek form görüntüsü bulunmaktadır.
 
