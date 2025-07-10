@@ -33,3 +33,26 @@ Bu kodu çalıştırdığınızda aşağıdaki gibi bir çıktı aldıysanız, v
 
 ---
 
+## Visual Studio'da WinForms Projesi Oluşturma
+
+Visual Studio'yu açın ve bir Windows Forms App (.NET Framework) projesi oluşturun.
+
+**Örneğin;** Form üzerine aşağıdaki bileşenleri ekleyelim.
+- **Button;** Veri yüklemek için.
+- **2 adet TextBox;** Veri girmek için.
+- **DatagridView;** Girdiğimiz verileri görüntülemek için.
+
+Form bileşenlerini ekledikten sonra aşağıdaki gibi adlandırmanız önerilir:
+
+- **txtAd** → Ad için TextBox.
+- **txtSoyad** → Soyad için TextBox.
+- **btnKaydet** → Buton, verileri yüklemek için kullanılacak.
+- **dgvKisiler** → Veritabanından gelen verileri görüntüleyeceğimiz DataGridView.
+
+Aşağıda, form üzerinde bileşenlerin nasıl yerleştirildiğine dair bir örnek form görüntüsü bulunmaktadır.
+
+![image](https://github.com/user-attachments/assets/822fa1a8-81d1-4627-9e4e-077a8ce05061)
+
+Bu adımların sonunda, gerekli arayüz bileşenlerini forma ekleyerek, veritabanı bağlantısında kullanacağımız basit ve kullanıma hazır bir Windows Forms uygulamasını başarıyla oluşturduk.
+
+---
