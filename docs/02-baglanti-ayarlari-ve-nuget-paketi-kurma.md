@@ -15,20 +15,22 @@ Bu paket olmadan **SqlConnection**, **SqlCommand**, **SqlDataAdapter** gibi teme
 1. Visual Studio'da **Çözüm Gezgini** panelinden projenize sağ tıklayın.
 2. Açılan menüden **NuGet Paketlerini Yönet** seçeneğine tıklayın.
 
-![image](https://github.com/user-attachments/assets/ffeddf3e-6d34-4528-854d-6668dd63b763)
+![image](https://github.com/user-attachments/assets/6c403ebb-2833-4ef9-99de-711369edd434)
 
 3. Üst sekmeden **Gözat** kısmına gelin.
 4. Arama çubuğuna **Microsoft.Data.SqlClient** yazın.
 5. En güncel sürümünü seçin ve **Install (Yükle)** butonuna tıklayın.
 
-![image](https://github.com/user-attachments/assets/6c403ebb-2833-4ef9-99de-711369edd434)
+![image](https://github.com/user-attachments/assets/1530b956-835f-4d19-a14d-f64d19a98afe)
 
-6. Yükleme tamamlandıktan sonra projenizde aşağıdaki namespace'i kullanarak ilgili bileşenlere erişebilirsiniz:
+6. Paketi yükledikten sonra aşağıdaki namespace'i projenize eklemeniz zorunludur; aksi takdirde bağlantı bileşenleri projede tanımlanamaz.
 
 ```csharp
 
 using Microsoft.Data.SqlClient;
 
 ```
+
+Bu adımlarla birlikte NuGet paketi kurulumunu tamamladık ve gerekli namespace tanımlamasını yaptık. Şimdi, bağlantının sorunsuz çalışabilmesi için SQL Server tarafındaki bağlantı ayarlarını kontrol edeceğiz.
 
 ---
