@@ -15,7 +15,7 @@ Bu paket olmadan **SqlConnection**, **SqlCommand**, **SqlDataAdapter** gibi teme
 1. Visual Studio'da **Çözüm Gezgini** panelinden projenize sağ tıklayın.
 2. Açılan menüden **NuGet Paketlerini Yönet** seçeneğine tıklayın.
 
-![image](https://github.com/user-attachments/assets/6c403ebb-2833-4ef9-99de-711369edd434)
+![image](https://github.com/user-attachments/assets/25fae2ca-5731-4b67-b822-85b9fc35dd86)
 
 3. Üst sekmeden **Gözat** kısmına gelin.
 4. Arama çubuğuna **Microsoft.Data.SqlClient** yazın.
