@@ -42,6 +42,8 @@ Visual Studio'yu açın ve bir Windows Forms App (.NET Framework) projesi oluşt
 **2 adet TextBox** → Veri girmek için  
 **DataGridView** → Girdiğimiz verileri görüntülemek için
 
+Bu formu, kullanıcıdan alınan ad ve soyad bilgilerini veritabanına kaydetmek ve kayıtlı verileri listelemek amacıyla kullanacağız.
+
 **Form bileşenlerini ekledikten sonra aşağıdaki gibi adlandırınız:**  
 **txtAd** → Ad için kullanılacak TextBox  
 **txtSoyad** → Soyad için kullanılacak TextBox  
