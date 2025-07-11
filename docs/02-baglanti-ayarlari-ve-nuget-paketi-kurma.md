@@ -6,9 +6,9 @@ C# ile SQL Server arasında sağlıklı bir bağlantı kurabilmek için bazı te
 
 ## Microsoft.Data.SqlClient NuGet Paketi Kurulumu
 
-SQL Server'a C# üzerinden bağlanabilmek için bu bağlantıyı yönetecek özel bir kütüphane gereklidir. Bu bağlantıyı sağlayan en güncel ve desteklenen paket Microsoft.Data.SqlClient isimli NuGet paketidir.
+SQL Server'a C# üzerinden bağlanabilmek için bu bağlantıyı yönetecek özel bir kütüphane gereklidir. Bu bağlantıyı sağlayan en güncel ve desteklenen paket **Microsoft.Data.SqlClient** isimli NuGet paketidir.
 
-Bu paket olmadan **SqlConnection**, **SqlCommand**, **SqlDataAdapter** gibi temel bileşenlere erişilemez ve veritabanı işlemleri yapılamaz.
+Bu paket olmadan **SqlConnection**, **SqlCommand** ve **SqlDataAdapter** gibi temel bileşenlere erişilemez ve veritabanı işlemleri yapılamaz.
 
 ### Nasıl Kurulur?
 
@@ -31,6 +31,6 @@ using Microsoft.Data.SqlClient;
 
 ```
 
-Bu adımlarla birlikte NuGet paketi kurulumunu tamamladık ve gerekli namespace tanımlamasını yaptık. Şimdi, bağlantının sorunsuz çalışabilmesi için SQL Server tarafındaki bağlantı ayarlarını kontrol edeceğiz.
+Bu adımlarla birlikte **NuGet paketi** kurulumunu tamamladık ve gerekli namespace tanımlamasını yaptık. Şimdi, bağlantının sorunsuz çalışabilmesi için SQL Server tarafındaki bağlantı ayarlarını kontrol edeceğiz.
 
 ---
