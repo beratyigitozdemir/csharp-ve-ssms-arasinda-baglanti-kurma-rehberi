@@ -32,8 +32,8 @@ Aşağıdaki içerik tablosu, bu rehberde ele alınan konulara hızlı erişim s
 
 - [Veritabanı Oluşturma](docs/01-veritabani-ve-winforms-projesi-olusturma.md)
 - [WinForms Projesi Oluşturma](https://github.com/beratyigitozdemir/csharp-ve-ssms-arasinda-baglanti-kurma-rehberi/blob/main/docs/01-veritabani-ve-winforms-projesi-olusturma.md#visual-studioda-winforms-projesi-olu%C5%9Fturma)
-- [NuGet Paketi Kurma](docs/02-baglanti-ayarlari-ve-nuget-paketi-kurma.md)
-- [Bağlantı Ayarları](docs/02-baglanti-ayarlari-ve-nuget-paketi-kurma.md)
+- [NuGet Paketi Kurma](docs/02-nuget-paketi-kurma.md)
+- [Bağlantı Ayarları](docs/03-baglanti-ayarlari.md)
 - [Connection String](docs/03-connection-string.md)
 - [Olası Hatalar ve Kritik Noktalar](docs/04-olasi-hatalar-ve-kritik-noktalar.md)
 - [SQL Verisini C#'ta Kullanma](docs/05-sql-verisini-kullanma-ornegi.md)
