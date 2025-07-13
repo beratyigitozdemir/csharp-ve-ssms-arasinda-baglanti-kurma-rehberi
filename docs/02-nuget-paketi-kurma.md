@@ -1,7 +1,6 @@
 # NuGet Paketi Kurulumu 
 
-C# ile SQL Server arasında sağlıklı bir bağlantı kurabilmek için bazı teknik gerekliliklerin karşılanması gerekir. Bu bölümde, projeye gerekli NuGet paketini nasıl ekleyeceğimiz ve SQL Server tarafında kontrol edilmesi gereken temel bağlantı ayarları adım adım açıklanmaktadır.
-
+C# projemizde SQL Server bağlantısını kurabilmek için öncelikle gerekli NuGet paketinin yüklenmesi gerekir. Bu bölüm, bu paketin nasıl yükleneceğini ve projeye nasıl dahil edileceğini adım adım ele almaktadır.
 ---
 
 ## Microsoft.Data.SqlClient NuGet Paketi Kurulumu
@@ -31,7 +30,7 @@ using Microsoft.Data.SqlClient;
 
 ```
 
-Bu adımlarla birlikte **NuGet paketi** kurulumunu tamamladık ve gerekli namespace tanımlamasını yaptık. Şimdi, bağlantının sorunsuz çalışabilmesi için SQL Server tarafındaki bağlantı ayarlarını kontrol edeceğiz.
+Bu adımlarla birlikte **NuGet paketi** kurulumunu tamamladık ve gerekli namespace tanımlamasını yaptık. Şimdi, bağlantının sorunsuz çalışabilmesi için SQL Server tarafındaki [bağlantı ayarlarını](docs/03-baglanti-ayarlari.md) kontrol edeceğiz.
 
 ---
 
