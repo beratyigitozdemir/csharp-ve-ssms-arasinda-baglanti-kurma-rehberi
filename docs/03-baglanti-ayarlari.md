@@ -4,11 +4,11 @@ Bu bölüm, hem **SQL Server ayarlarında** hem de **SSMS** arayüzü üzerinden
 
 ---
 
-## 1.SQL Server Servisi Çalışıyor mu?
+## SQL Server Servisi Çalışıyor mu?
 
 Bağlantının kurulabilmesi için **SQL Server** servisinin aktif ve çalışır durumda olması gerekir. Aşağıdaki iki yöntemle bu durumu kontrol edebilirsiniz:
 
-### SQL Server Configuration Manager
+### 1. SQL Server Configuration Manager
 
 Servislerin aktif olup olmadığını en güvenilir şekilde görebileceğiniz yer SQL Server Configuration Manager'dır.
 
@@ -18,7 +18,7 @@ Servislerin aktif olup olmadığını en güvenilir şekilde görebileceğiniz y
 
 ![image](https://github.com/user-attachments/assets/0295e1cb-52c4-4014-9474-f4f858efa1aa)
 
-### Windows Hizmetler Ekranı Üzerinden SQL Server Servisi Kontrolü
+### 2. Windows Hizmetler Ekranı Üzerinden SQL Server Servisi Kontrolü
 
 Alternatif olarak, SQL Server servisinin çalışıp çalışmadığını bu yöntemle de kontrol edebilirsiniz.
 
@@ -26,13 +26,13 @@ Alternatif olarak, SQL Server servisinin çalışıp çalışmadığını bu yö
 
 ![image](https://github.com/user-attachments/assets/62abeff8-99ce-451b-a7dc-be33a4fdf52d)
 
-2. Açılan listede, **SQL Server (MSSQLSERVER)** veya sizin kullandığınız sürüme göre adlandırılmış **SQL Server (SQLEXPRESS)** gibi bit servis bulun.
+2. Açılan listede, **SQL Server (MSSQLSERVER)** veya sizin kullandığınız sürüme göre adlandırılmış **SQL Server (SQLEXPRESS)** gibi bir servis bulun.
 3. Bu servisin **Durum** sütununda **Çalışıyor** (Running) yazdığından emin olun.
 4. Eğer servis çalışmıyorsa servise sağ tıklayın ve başlat seçeneğine tıklayın.
 
 ![Image](https://github.com/user-attachments/assets/9f72316a-02c6-4df7-a908-fa496bac26c5)
 
-5. Servisin **Başlangıç Türü** kısmı **Otomatik** olarak ayarlanmışsa, sistem her açıldığında bu servis otomatik balar. Değilse, isteğe bağlı olarak değiştirebilirsiniz.
+5. Servisin **Başlangıç Türü** kısmı **Otomatik** olarak ayarlanmışsa, sistem her açıldığında bu servis otomatik başlar. Değilse, isteğe bağlı olarak değiştirebilirsiniz.
 
 #### Not:
 
