@@ -54,6 +54,6 @@ Aşağıda, form üzerinde bileşenlerin nasıl yerleştirildiğine dair bir ör
 
 ![image](https://github.com/user-attachments/assets/822fa1a8-81d1-4627-9e4e-077a8ce05061)
 
-Bu adımların sonunda, gerekli arayüz bileşenlerini forma ekleyerek, veritabanı bağlantısında kullanacağımız basit ve kullanıma hazır bir Windows Forms uygulamasını başarıyla oluşturduk.
+Bu adımların sonunda, gerekli arayüz bileşenlerini forma ekleyerek, veritabanı bağlantısında kullanacağımız basit ve kullanıma hazır bir Windows Forms uygulamasını başarıyla oluşturduk. Sıradaki adımda, veritabanı bağlantısını gerçekleştirebilmek için gerekli olan [NuGet paketini](./02-nuget-paketi-kurma.md) projemize dahil edeceğiz.
 
 ---
