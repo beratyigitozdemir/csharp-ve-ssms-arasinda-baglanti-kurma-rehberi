@@ -1,6 +1,7 @@
 # NuGet Paketi Kurulumu 
 
 C# projemizde SQL Server bağlantısını kurabilmek için öncelikle gerekli NuGet paketinin yüklenmesi gerekir. Bu bölüm, bu paketin nasıl yükleneceğini ve projeye nasıl dahil edileceğini adım adım ele almaktadır.
+
 ---
 
 ## Microsoft.Data.SqlClient NuGet Paketi Kurulumu
