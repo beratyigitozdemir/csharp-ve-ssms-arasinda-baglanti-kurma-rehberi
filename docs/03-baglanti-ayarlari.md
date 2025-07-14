@@ -65,12 +65,12 @@ SQL Server'ın uzak istemcilerden bağlantı kabul edebilmesi için sunucu ayarl
 
 1. **SQL Server Management Studio** (SSMS) uygulamasını açın ve SQL Server'a bağlanın.
 2. Bağlantı kurduğunuz sunucu adına sağ tıklayın ve açılan menüden **Properties** seçeneğine tıklayın.
-3. Açılan pencerede sol menüden connections sekmesini seçin.
+3. Açılan pencerede sol menüden **Connections** sekmesini seçin.
 4. Sağ tarafta yer alan **Allow remote connections to this server** seçeneğinin işaretli olduğundan emin olun.
 5. Değişiklik yaptıysanız OK butonuna tıklayarak ayarları kaydedin.
 
 ![Image](https://github.com/user-attachments/assets/12f1fa38-fd77-4b74-bc1f-3253062b50f4)
 
-Bu adımlarla birlikte, SQL Server ve SSMS tarafında bağlantının sağlıklı kurulabilmesi için gerekli olan temel ayarları kontrol etmiş olduk. Sıradaki adımda, en kritik nokta olan [Connection String](./04-connection-string.md) yapısını incelemiş olacağız.
+Bu adımlarla birlikte, **SQL Server** ve **SSMS** tarafında bağlantının sağlıklı kurulabilmesi için gerekli olan temel ayarları kontrol etmiş olduk. Sıradaki adımda, en kritik nokta olan [Connection String](./04-connection-string.md) yapısını incelemiş olacağız.
 
 ---
