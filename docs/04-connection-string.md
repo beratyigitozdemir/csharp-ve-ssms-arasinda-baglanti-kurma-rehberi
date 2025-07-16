@@ -16,7 +16,7 @@ Hatalı tanımlanmış bir connection string; **bağlantı hatalarına**, **yetk
 
 ## Temel Connection String Yapıları
 
-Connection string yapısı, kullanılan kimlik doğrulama yöntemine göre değişiklik gösterebilir. Bu bölümde en sık kullanılan bağlantı türleri için **temel connection string örneklerini** ve kullanım senaryolarını incelemektedir.
+Connection string yapısı, kullanılan kimlik doğrulama yöntemine göre değişiklik gösterebilir. Bu bölüm en sık kullanılan bağlantı türleri için **temel connection string örneklerini** incelemektedir.
 
 ### 1. Windows Authentication ile Bağlantı
 
@@ -36,6 +36,29 @@ string connectionString = "Server=BERAT;Database=KisiVeritabani;Integrated Secur
 | TrustServerCertificate=True| SQL Server’ın SSL sertifikasını doğrulamaz; geliştirme ortamlarında sertifika eksikliğinden kaynaklanan bağlantı hatalarını önlemek için kullanılır. Üretim ortamlarında güvenlik açısından önerilmez. |
 
 Windows Authentication, yerel ve kurumsal ağlarda güvenli bağlantılar için sıkça tercih edilir. Ancak bazı senaryolarda kullanıcı adı ve şifreyle bağlantı gerekebilir. **Sıradaki bağlantı yöntemi tam olarak bu ihtiyacı karşılıyor → SQL Server Authentication**
+
+### 2. SQL Authentication ile Bağlantı
+
+SQL Server Authentication ile bağlantı kurarken, **SQL Server içerisinde tanımlı kullanıcı adı ve şifreyi** doğrudan connection string'e dahil edersiniz. **Bu durumda Windows Authentication yerine SQL Server Authentication kullanılır.**
+
+```csharp
+
+string connectionString = "Server=BERAT;Database=KisiVeritabani;User Id=sqluser;Password=1234;TrustServerCertificate=True;";
+
+```
+
+- **User Id=sqluser** → SQL Serverda tanımlı, SQL Server Authentication ile kullanılacak kullanıcının adı.
+- **Password=1234**   → SQL Serverda tanımlı, SQL Server Authenticationda kullanılacak kullanıcının parolası.
+
+> **Not:**
+> Kullanıcı adı ve şifre SQL Server üzerinde oluşturulmuş olmalıdır. 
+> Eğer bağlantı hatası alırsanız, öncelikle SQL Server'da doğru kullanıcı adı ve şifrenin tanımlı olduğundan emin olun.
+
+Bu şekilde, SQL Server üzerinde tanımlanmış bir kullanıcı adı ve şifre ile bağlantı kurularak, Windows kimlik doğrulamasına ihtiyaç duymadan güvenli bir şekilde veritabanı işlemleri gerçekleştirilebilir.
+
+Ancak bazı durumlarda, veritabanın erişim yalnızca aynı bilgisayar üzerinden değil, farklı bir makineden veya ağ üzerinden de gerekebilir. Böyle durumlarda uzak bağlantı yani **remote connection** ayarlarının doğru şekilde yapılandırılması gerekir. **Sıradaki bağlantı yöntemi tam olarak bu ihtiyacı karşılıyor → Uzak Makineye IP Üzerinden Bağlantı**
+
+### 3. Uzak Makineye IP Üzerinden Bağlantı
 
 ---
 
