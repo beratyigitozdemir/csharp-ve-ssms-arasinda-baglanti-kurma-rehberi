@@ -56,8 +56,8 @@ string connectionString = "Server=BERAT;Database=KisiVeritabani;User Id=sqluser;
 
 Bu şekilde, SQL Server üzerinde tanımlanmış bir kullanıcı adı ve şifre ile bağlantı kurularak, Windows kimlik doğrulamasına ihtiyaç duymadan güvenli bir şekilde veritabanı işlemleri gerçekleştirilebilir.
 
-Ancak bazı durumlarda, veritabanın erişim yalnızca aynı bilgisayar üzerinden değil, farklı bir makineden veya ağ üzerinden de gerekebilir. Böyle durumlarda uzak bağlantı yani **remote connection** ayarlarının doğru şekilde yapılandırılması gerekir.
-**Sıradaki bağlantı yöntemi tam olarak bu ihtiyacı karşılıyor → Uzak Makineye IP Üzerinden Bağlantı**
+Ancak bazı durumlarda, veritabanın erişim yalnızca aynı bilgisayar üzerinden değil, farklı bir makineden veya ağ üzerinden de gerekebilir. Böyle durumlarda uzak bağlantı yani **remote connection** ayarlarının doğru şekilde yapılandırılması gerekir
+**Sıradaki bağlantı yöntemi tam olarak bu ihtiyacı karşılıyor** → **Uzak Makineye IP Üzerinden Bağlantı**
 
 ### 3. Uzak Makineye IP Üzerinden Bağlantı
 
