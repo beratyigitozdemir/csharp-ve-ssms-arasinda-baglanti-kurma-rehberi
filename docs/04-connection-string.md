@@ -56,7 +56,8 @@ string connectionString = "Server=BERAT;Database=KisiVeritabani;User Id=sqluser;
 
 Bu şekilde, SQL Server üzerinde tanımlanmış bir kullanıcı adı ve şifre ile bağlantı kurularak, Windows kimlik doğrulamasına ihtiyaç duymadan güvenli bir şekilde veritabanı işlemleri gerçekleştirilebilir.
 
-Ancak bazı durumlarda, veritabanına erişim yalnızca aynı bilgisayar üzerinden değil, farklı bir makineden veya ağ üzerinden de yapılması gerekebilir. Böyle durumlarda uzak bağlantı yani **remote connection** ayarlarının doğru şekilde yapılandırılması gerekir.  
+Ancak bazı durumlarda, veritabanına erişim yalnızca aynı bilgisayar üzerinden değil, farklı bir makineden veya ağ üzerinden de yapılması gerekebilir. Böyle durumlarda uzak bağlantı yani **remote connection** ayarlarının doğru şekilde yapılandırılması gerekir.
+  
 **Sıradaki bağlantı yöntemi tam olarak bu ihtiyacı karşılıyor** → **Uzak Makineye IP Üzerinden Bağlantı.**
 
 ### 3. Uzak Makineye IP Üzerinden Bağlantı
@@ -81,7 +82,7 @@ string connectionString = "Server=192.168.1.100;Database=KisiVeritabani;Integrat
 
 ```
 
-Son adımlardan biri olarak, SQL Server'a erişim için kullanılan **varsayılan portun** ne anlama geldiğini inceleyelim:
+**Son adımlardan biri olarak, SQL Server'a erişim için kullanılan **varsayılan portun** ne anlama geldiğini inceleyelim:**
 
 #### Bağlantının Anahtarı: SQL Server'ın Varsayılan Portu (1433)
 
@@ -103,13 +104,13 @@ Bu gibi durumlarda, connection string'e port numarasını açıkça ekleme gerek
 
 ```csharp
 
-string connectionString = "Server=192.168.1.100,1500;Database=KisiVeritabani;User Id=sqluser;Password=1234;";
+string connectionString = "Server=192.168.1.100,1500;Database=KisiVeritabani;User Id=sqluser;Password=1234;TrustServerCertificate=True;";
 
 ```
 
 ### Ne Zaman Port Belirtmeliyim?
 
-| **Durum**                                                   | **,Port Gerekli mi?**|
+| **Durum**                                                   | **Port Gerekli mi?**|
 |-------------------------------------------------------------|----------------------|
 | Varsayılan SQL Server portu (1433)                          | Hayır                |
 | Farklı bir port kullanılıyorsa                              | Evet                 |
