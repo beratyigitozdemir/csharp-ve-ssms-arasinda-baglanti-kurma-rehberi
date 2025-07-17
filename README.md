@@ -35,8 +35,8 @@ Aşağıdaki içerik tablosu, bu rehberde ele alınan konulara hızlı erişim s
 - [NuGet Paketi Kurma](docs/02-nuget-paketi-kurma.md)
 - [Bağlantı Ayarları](docs/03-baglanti-ayarlari.md)
 - [Connection String](docs/04-connection-string.md)
-- [Olası Hatalar ve Kritik Noktalar](docs/04-olasi-hatalar-ve-kritik-noktalar.md)
 - [SQL Verisini C#'ta Kullanma](docs/05-sql-verisini-kullanma-ornegi.md)
+- [Olası Hatalar ve Kritik Noktalar](docs/06-olasi-hatalar-ve-kritik-noktalar.md)
 ---
 
 ## Lisans
