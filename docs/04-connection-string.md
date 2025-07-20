@@ -36,6 +36,7 @@ string connectionString = "Server=BERAT;Database=KisiVeritabani;Integrated Secur
 | TrustServerCertificate=True| SQL Server’ın SSL sertifikasını doğrulamaz; geliştirme ortamlarında sertifika eksikliğinden kaynaklanan bağlantı hatalarını önlemek için kullanılır. Üretim ortamlarında güvenlik açısından önerilmez. |
 
 Windows Authentication, yerel ve kurumsal ağlarda güvenli bağlantılar için sıkça tercih edilir. Ancak bazı senaryolarda kullanıcı adı ve şifreyle bağlantı gerekebilir. 
+
 **Sıradaki bağlantı yöntemi tam olarak bu ihtiyacı karşılıyor → SQL Server Authentication**
 
 ### 2. SQL Authentication ile Bağlantı
