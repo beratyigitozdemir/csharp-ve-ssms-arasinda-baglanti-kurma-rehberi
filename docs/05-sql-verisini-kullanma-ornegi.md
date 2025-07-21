@@ -43,7 +43,7 @@ using System.Data;
 - **using Microsoft.Data.SqlClient;** → Veritabanıyla etkileşim kurmak için ihtiyaç duyduğumuz tüm temel sınıflar bu yapı altında yer alır.
 
 > Dikkat!
-> Bu namespace'i kullanabilmek için önceki adımlarda da gösterildği gibi 
+> Bu namespace'i kullanabilmek için önceki adımlarda da gösterildiği gibi 
 > Microsoft.Data.SqlClient NuGet paketinin projeye eklenmiş olması gerekir.
 
 ### 2. Connection String Tanımı
@@ -102,5 +102,43 @@ private void KisileriListele()
 | `dgvKisiler.DataSource = dt;` | `DataGridView` kontrolü, verileri ekranda göstermek için `dt` tablosunu veri kaynağı olarak kullanır. |
 
 ### 5. Yeni Kayıt Ekleme
+
+```csharp
+
+private void BtnKaydet_Click_1(object sender, EventArgs e)
+{
+    using (SqlConnection connection = new SqlConnection(connectionString))
+    {
+        try
+        {
+            connection.Open();
+            string query = "INSERT INTO Kisiler (Ad, Soyad) VALUES (@Ad, @Soyad)";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@Ad", txtAd.Text);
+            command.Parameters.AddWithValue("@Soyad", txtSoyad.Text);
+            command.ExecuteNonQuery();
+            MessageBox.Show("Kişi kaydedildi.");
+
+            KisileriListele();
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show("Hata: " + ex.Message);
+        }
+    }
+}
+
+```
+
+| Kod | Açıklama |
+|-------|----------|
+| `using (SqlConnection connection = new SqlConnection(connectionString))` | `SqlConnection` sınıfı ile bağlantı nesnesi oluşturulur. `using` bloğu sayesinde bağlantı işi bitince otomatik kapatılır. |
+| `connection.Open();` | Bağlantıyı açar. |
+| `string query = "INSERT INTO Kisiler (Ad, Soyad) VALUES (@Ad, @Soyad)";` | `SQL Sorgusu:` Girilen verileri Kisiler tablosuna ekler. |
+| `SqlCommand command = new SqlCommand(query, connection);` | Sorguyu ve bağlantıyı SQL'e gönderir. |
+| `command.Parameters.AddWithValue(...)` | Sorgudaki `Ad` ve `Soyad` değerlerini TextBox'tan alır. |
+| `command.ExecuteNonQuery();` | Veritabanına sorguyu gönderir ve çalıştırır. |
+| `KisileriListele();`| Ekleme sonrası güncel listeyi tekrar gösterir. |
+| `catch`| Hata oluşursa kullanıcıya mesaj gönderir. |
 
 ---
