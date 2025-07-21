@@ -144,16 +144,15 @@ private void BtnKaydet_Click_1(object sender, EventArgs e)
 ### Formdan Veritabanına: Sürecin Kısa Özeti
 
 **Kullanıcı Giriş Yapar**
-- Ad ve Soyad bilgilerini formdaki TextBox'lara yazar.
+- Ad ve Soyad bilgilerini formdaki TextBox'lara yazar,
 - **Kaydet** butonuna tıklar.
 
 **Arka Planda Ne Olur?**
-- `SqlConnection` ile bağlantı açılır.
-- `SqlCommand` ile INSERT sorgusu çalıştırılır.
+- `SqlConnection` ile bağlantı açılır,
+- `SqlCommand` ile INSERT sorgusu çalıştırılır,
 - Veri başarıyla eklenince `KisileriListele()` metodu çalıştırılır.
 
-**Sonuç:**
-- DataGridView, yeni eklenen kişiyle birlikte güncellenir.
+**Sonuç:** → DataGridView, yeni eklenen kişiyle birlikte güncellenir.
 
 ---
 
