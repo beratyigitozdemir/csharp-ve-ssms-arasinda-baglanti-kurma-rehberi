@@ -164,4 +164,8 @@ Bu bölümde, bir C# Windows Forms uygulamasında SQL Server verisiyle nasıl et
 > Dikkat! 
 > Paylaşılan projedeki connectionString yapısını, kendinize göre özelleştirmeyi unutmayın. Aksi takdirde bağlantı başarılı bir şekilde kurulamaz.
 
+Örnek Proje Dosyasını Görüntüle
+
+[Projeye Git](csharp-ve-ssms-arasinda-baglanti-kurma-rehberi/sqlserverconnection)
+
 ---
