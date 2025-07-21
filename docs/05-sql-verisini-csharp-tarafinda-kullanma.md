@@ -165,6 +165,10 @@ Bu bölümde, bir C# Windows Forms uygulamasında SQL Server verisiyle nasıl et
 > Dikkat! 
 > Paylaşılan projedeki connectionString yapısını, kendinize göre özelleştirmeyi unutmayın. Aksi takdirde bağlantı başarılı bir şekilde kurulamaz.
 
-Örnek Proje Dosyasını Görüntüle (ilk olarak `README` dosyasını okuyunuz) → [Projeye Git](../sqlserverconnection)
+Örnek Proje Dosyası (ilk olarak `README` dosyasını okuyunuz) → [Projeye Git](../sqlserverconnection)
+
+Bu bölüm, SQL verisini C# tarafında nasıl kullanılacağına dair basit ama işlevsel bir örnek uygulama geliştirmiştir.
+
+Bir sonraki bölümde, bu örnekten yola çıkarak karşılaşabilecek [Olası Hatalara ve Kritik Noktalar](./06-olasi-hatalar-ve-kritik-noktalar.md) kısmına göz atacağız.
 
 ---

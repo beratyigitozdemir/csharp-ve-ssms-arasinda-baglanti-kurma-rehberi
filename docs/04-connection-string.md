@@ -30,10 +30,10 @@ string connectionString = "Server=BERAT;Database=KisiVeritabani;Integrated Secur
 
 | Bileşen                     | Açıklama                                                                                                                                                     |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Server=BERAT               | SQL Server’ın kurulu olduğu bilgisayarın adıdır. SSMS kurulumu sırasında genellikle varsayılan olarak atanır.                                               |
-| Database=KisiVeritabani    | Bağlanmak istenilen veritabanının adıdır. Uygulamanın işlemlerini bu veritabanı üzerinden gerçekleştirmesi beklenir.                                       |
-| Integrated Security=True   | Windows Authentication kullanıldığını belirtir. Kullanıcı adı/parola yazılmaz, oturum bilgisi otomatik olarak kullanılır.                                  |
-| TrustServerCertificate=True| SQL Server’ın SSL sertifikasını doğrulamaz; geliştirme ortamlarında sertifika eksikliğinden kaynaklanan bağlantı hatalarını önlemek için kullanılır. Üretim ortamlarında güvenlik açısından önerilmez. |
+| `Server=BERAT`               | SQL Server’ın kurulu olduğu bilgisayarın adıdır. SSMS kurulumu sırasında genellikle varsayılan olarak atanır.                                               |
+| `Database=KisiVeritabani`    | Bağlanmak istenilen veritabanının adıdır. Uygulamanın işlemlerini bu veritabanı üzerinden gerçekleştirmesi beklenir.                                       |
+| `Integrated Security=True`  | Windows Authentication kullanıldığını belirtir. Kullanıcı adı/parola yazılmaz, oturum bilgisi otomatik olarak kullanılır.                                  |
+| `TrustServerCertificate=True`| SQL Server’ın SSL sertifikasını doğrulamaz; geliştirme ortamlarında sertifika eksikliğinden kaynaklanan bağlantı hatalarını önlemek için kullanılır. Üretim ortamlarında güvenlik açısından önerilmez. |
 
 Windows Authentication, yerel ve kurumsal ağlarda güvenli bağlantılar için sıkça tercih edilir. Ancak bazı senaryolarda kullanıcı adı ve şifreyle bağlantı gerekebilir. 
 
@@ -123,6 +123,6 @@ string connectionString = "Server=192.168.1.100,1500;Database=KisiVeritabani;Use
 
 **Bu adımlarla birlikte farklı connection string yapılarını görmüş ve hangi durumlarda nasıl kullanılmaları gerektiğini görmüş olduk.**
 
-Bir sonraki bölümde, oluşturduğumuz connection string yapısını kullanarak, SQL verisini C# tarafında nasıl işleyeceğimizi detaylıca ele alacağımız [SQL Verisini C#'ta Kullanma](./05-sql-verisini-kullanma-ornegi.md) bölümüne geçiyoruz.
+Bir sonraki bölümde, oluşturduğumuz connection string yapısını kullanarak, SQL verisini C# tarafında nasıl işleyeceğimizi detaylıca ele alacağımız [SQL Verisini C#'ta Kullanma](./05-sql-verisini-csharp-tarafinda-kullanma.md) bölümüne geçiyoruz.
 
 ---
