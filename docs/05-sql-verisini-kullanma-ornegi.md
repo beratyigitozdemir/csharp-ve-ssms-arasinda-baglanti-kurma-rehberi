@@ -152,7 +152,7 @@ private void BtnKaydet_Click_1(object sender, EventArgs e)
 - `SqlCommand` ile INSERT sorgusu çalıştırılır,
 - Veri başarıyla eklenince `KisileriListele()` metodu çalıştırılır.
 
-**Sonuç:** → DataGridView, yeni eklenen kişiyle birlikte güncellenir.
+**Sonuç:** DataGridView, yeni eklenen kişiyle birlikte güncellenir.
 
 ---
 
