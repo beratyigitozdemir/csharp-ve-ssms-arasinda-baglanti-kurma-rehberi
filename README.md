@@ -6,6 +6,7 @@ Bu rehber, C# uygulamaları ile SQL Server Management Studio (SSMS) arasında ba
 ## Rehberin Amacı
 
 C# ile SQL Server arasında bağlantı kurma sürecine dair temel kavramları bilmeyen kullanıcılar için açıklayıcı bilgiler sunmak; konuya aşina olan geliştiriciler için hatırlatıcı ve referans niteliğinde bir kaynak sağlamak amaç edinmiştir.
+
 **İki farklı kullanıcı kitlesine** hitap etmektedir:
 
 ### 1. Temel Bilgiye İhtiyaç Duyanlar
