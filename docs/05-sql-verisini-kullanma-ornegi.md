@@ -155,7 +155,9 @@ private void BtnKaydet_Click_1(object sender, EventArgs e)
 **Sonuç:**
 - DataGridView, yeni eklenen kişiyle birlikte güncellenir.
 
-### Sonuç ve Proje Dosyası Hakkında
+---
+
+## Sonuç ve Proje Dosyası Hakkında
 
 Bu bölümde, bir C# Windows Forms uygulamasında SQL Server verisiyle nasıl etkileşim kuracağımızı adım adım öğrendik. Hem form üzerindeki kullanıcı girişlerini nasıl veritabanına ekleyeceğimizi hem de eklenen kayıtların nasıl listelendiğini detaylı biçimde inceledik.
 
