@@ -22,17 +22,17 @@ C# ile SQL Server arasında bağlantı kurmayı öğrenmek isteyen geliştiricil
 1. Form bileşenleri üzerinden kullanıcıdan ad, soyad bilgisi alma.
 2. `Kaydet` butonuyla SQL Server'a alınan verileri ekleme.
 3. `KisileriListele()` metodu ile veritabanındaki tüm kayıtları listeleme.
-5. DataGridView ile verilerin kullanıcıya listelenmesi.
+5. DataGridView ile verilerin kullanıcıya gösterilmesi.
 
 ## Dikkat Edilmesi Gerekenler
 
-> Proje içindeki `connectionString` yapısını SQL Server ortamınıza göer **düzenlenmelidir**.
-> Önceki bölümlerde hazırladığımız veritabanını kullanacağınız için sadece `Server` adını değiştirmeniz yeterli olacaktır.
+- Proje içindeki `connectionString` yapısı SQL Server ortamınıza göre **düzenlenmelidir**
+- Önceki bölümlerde hazırladığımız veritabanını kullanacağınız için sadece `Server` adını değiştirmeniz yeterli olacaktır.
 
 ## Uygulamanın Tüm Mantığını İçeren Kod
 
 Kullanıcıdan alınan verilerin veritabanına kaydedilmesi, kayıtların listelenmesi ve SQL bağlantısının yönetilmesi gibi işlemler, bu dosyada tanımlanmıştır.
 
-🔗 [Tıklayarak Koda Ulaşabilirsiniz](./sqlserverconnection/Form1.cs)
+🔗 [Buradan Koda Ulaşabilirsiniz](./sqlserverconnection/Form1.cs)
 
 ---
