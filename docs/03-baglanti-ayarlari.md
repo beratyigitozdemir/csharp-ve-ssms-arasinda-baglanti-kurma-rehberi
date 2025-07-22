@@ -34,8 +34,7 @@ Alternatif olarak, SQL Server servisinin çalışıp çalışmadığını bu yö
 
 5. Servisin **Başlangıç Türü** kısmı **Otomatik** olarak ayarlanmışsa, sistem her açıldığında bu servis otomatik başlar. Değilse, isteğe bağlı olarak değiştirebilirsiniz.
 
-#### Not:
-
+ > Not:
 - Eğer listede SQL Server servisini göremiyorsanız, kurulum sırasında servis adı farklı verilmiş olabilir.
 - **MSSQLSERVER** → varsayılan örnek
 - **SQLEXPRESS** → SQL Express sürümü için yaygın ad
@@ -66,11 +65,13 @@ SQL Server'ın uzak istemcilerden bağlantı kabul edebilmesi için sunucu ayarl
 1. **SQL Server Management Studio** (SSMS) uygulamasını açın ve SQL Server'a bağlanın.
 2. Bağlantı kurduğunuz sunucu adına sağ tıklayın ve açılan menüden **Properties** seçeneğine tıklayın.
 3. Açılan pencerede sol menüden **Connections** sekmesini seçin.
-4. Sağ tarafta yer alan **Allow remote connections to this server** seçeneğinin işaretli olduğundan emin olun.
+4. Açılan pencerede yer alan **Allow remote connections to this server** seçeneğinin işaretli olduğundan emin olun.
 5. Değişiklik yaptıysanız OK butonuna tıklayarak ayarları kaydedin.
 
 ![Image](https://github.com/user-attachments/assets/12f1fa38-fd77-4b74-bc1f-3253062b50f4)
 
-Bu adımlarla birlikte, **SQL Server** ve **SSMS** tarafında bağlantının sağlıklı kurulabilmesi için gerekli olan temel ayarları kontrol etmiş olduk. Sıradaki adımda, en kritik nokta olan [Connection String](./04-connection-string.md) yapısını incelemiş olacağız.
+Bu adımlarla birlikte, **SQL Server** ve **SSMS** tarafında bağlantının sağlıklı kurulabilmesi için gerekli olan temel ayarları kontrol etmiş olduk. Sıradaki adımda, en kritik nokta olan **Connection String** yapısını incelemiş olacağız.
+
+**Connection String Bölümü** → [Tıklayarak Buradan Ulaşabilirsiniz](./04-connection-string.md)
 
 ---

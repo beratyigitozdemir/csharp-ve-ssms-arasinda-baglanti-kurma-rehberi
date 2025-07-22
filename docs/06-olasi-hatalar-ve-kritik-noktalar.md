@@ -20,7 +20,7 @@ Hazırladığımız Windows Forms uygulamasını çalıştırma sürecinde, **be
 
 > Hatanın Kaynağı:
 
-Bu hata, SQL Server'a bağlantı kurulamaması durumunda oluşur. Hata kodu `Error:40`, SQL Server'a bağlanma girişiminin başarısız olduğu gösterilir.
+Bu hata, SQL Server'a bağlantı kurulamaması durumunda oluşur. Hata kodu `Error:40`, SQL Server'a bağlanma girişiminin başarısız olduğunu gösterir.
 
 | **Neden**                 | **Açıklama**                             | **Çözüm**                                                              |
 |---------------------------|------------------------------------------|------------------------------------------------------------------------|
@@ -31,7 +31,7 @@ Bu hata, SQL Server'a bağlantı kurulamaması durumunda oluşur. Hata kodu `Err
 > Önerilen Adımlar:
 
 1. **SQL Server servisi açık mı kontrol edin.**
-2. **Connection String yapısında girdiğin bilgilerin doğru olduğundan emin ol ve eksiklik var mı kontrol edin.**
+2. **Connection String yapısında girdiğin bilgilerin doğru olduğundan emin olun ve eksiklik var mı kontrol edin.**
 3. **Yapılması ve kontrol edilmesi gereken bağlantı ayarları doğru yapılandırıldı mı?** → `TCP/IP Protokolü` **açık mı emin olun**
 
 
@@ -52,13 +52,13 @@ Gerekli namespace eklenmemişse ya da ilgili NuGet paketi projeye yüklenmemişs
 
 ## Kritik Noktalar 
 
-Bu kısım, bağlantı sürecindeki kritik noktaları hatırlatarak, olası hataların önüne geçmek ve doğru yapılandırmayı sağlamak amacıyla oluşturulmuştur.
+Bu kısım, bağlantı sürecindeki **kritik noktaları hatırlatarak**, olası hataların önüne geçmek ve doğru yapılandırmayı sağlamak amacıyla oluşturulmuştur.
 
 > Bağlantı sürecinde dikkate alınması gereken kritik noktalar:
 
 - Belirtilen NuGet paketini projeye yüklediğinizden ve doğru namespace kullandığınızdan emin olun. → [NuGet Paketi Kurma Bölümü](./02-nuget-paketi-kurma.md)
 - Kontrol edilmesi gereken bağlantı ayarlarını gözden geçirin ve gerekli kısımlardan emin olun. → [Bağlantı Ayarları Bölümü](./03-baglanti-ayarlari.md)
-- SQL **bağlantı cümlenizin (connection string)** doğru yapılandırıldığından emin olun. → [Connection String Böümü](./04-connection-string.md)
+- SQL **bağlantı cümlenizin (connection string)** doğru yapılandırıldığından emin olun. → [Connection String Bölümü](./04-connection-string.md)
 
 ---
 
