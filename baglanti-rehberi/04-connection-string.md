@@ -93,6 +93,8 @@ string connectionString = "Server=192.168.1.100;Database=KisiVeritabani;Integrat
 SQL Server, istemcilerle TCP/IP üzerinden iletişim kurarken varsayılan olarak **1433 numaralı portu** kullanır.
 Bu, birçok sistemde **önceden tanımlı** ve **yaygın olarak kullanılan** bağlantı portudur.
 
+![image](https://github.com/user-attachments/assets/6e41a7ee-608d-4adf-a2b8-ab80f9d62347)
+
 Eğer SQL Server bu port üzerinden çalışıyorsa, connection string içerisinde port numarasını **ayrıca belirtmen gerekmez.**
 
 > Fakat bazı sistemlerde SQL Server **1433 dışında bir port kullanacak şekilde yapılandırılmış** olabilir.
