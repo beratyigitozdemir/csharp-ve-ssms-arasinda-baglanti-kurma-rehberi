@@ -161,7 +161,7 @@ DataGridView, yeni eklenen verilerle birlikte güncellenir ve ad, soyad bilgiler
 
 ---
 
-## Sonuç ve Proje Dosyası Hakkında
+## Sonuç ve Uygulama Dosyası Hakkında
 
 Bu bölümde, bir C# Windows Forms uygulamasında SQL Server verisiyle nasıl etkileşim kuracağımızı adım adım öğrendik. Hem form üzerindeki kullanıcı girişlerini nasıl veritabanına ekleyeceğimizi hem de eklenen kayıtların nasıl listelendiğini detaylı biçimde inceledik.
 
