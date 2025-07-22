@@ -32,7 +32,7 @@ C# ile SQL Server arasında bağlantı kurma sürecine dair temel kavramları bi
 Aşağıdaki içerik tablosu, bu rehberde ele alınan konulara hızlı erişim sağlayacak şekilde yapılandırılmıştır. Başlıklara tıklayarak doğrudan ilgili bölümlere geçiş yapabilirsiniz. 
 
 - [Veritabanı Oluşturma](baglanti-rehberi/01-veritabani-ve-winforms-projesi-olusturma.md)
-- [WinForms Projesi Oluşturma](https://github.com/beratyigitozdemir/csharp-ve-ssms-arasinda-baglanti-kurma-rehberi/blob/main/docs/01-veritabani-ve-winforms-projesi-olusturma.md#visual-studioda-winforms-projesi-olu%C5%9Fturma)
+- [WinForms Projesi Oluşturma](https://github.com/beratyigitozdemir/csharp-ve-ssms-arasinda-baglanti-kurma-rehberi/blob/main/baglanti-rehberi/01-veritabani-ve-winforms-projesi-olusturma.md#visual-studioda-winforms-projesi-olu%C5%9Fturma)
 - [NuGet Paketi Kurma](baglanti-rehberi/02-nuget-paketi-kurma.md)
 - [Bağlantı Ayarları](baglanti-rehberi/03-baglanti-ayarlari.md)
 - [Connection String](baglanti-rehberi/04-connection-string.md)
