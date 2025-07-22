@@ -31,7 +31,9 @@ using Microsoft.Data.SqlClient;
 
 ```
 
-Bu adımlarla birlikte **NuGet paketi** kurulumunu tamamladık ve gerekli namespace tanımlamasını yaptık. Sıradaki işlemimiz, bağlantının sorunsuz çalışabilmesi için [kontrol edilmesi gereken bağlantı ayarlarını](./03-baglanti-ayarlari.md)  incelemek olacak.
+Bu adımlarla birlikte **NuGet paketi** kurulumunu tamamladık ve gerekli namespace tanımlamasını yaptık. Sıradaki işlemimiz, bağlantının sorunsuz çalışabilmesi için **kontrol edilmesi gereken bağlantı ayarlarını** incelemek olacak.
+
+**Kontrol Edilmesi Gereken Bağlantı Ayarları Bölümü**→ [Tıklayarak Buradan Ulaşabilirsiniz](./03-baglanti-ayarlari.md)
 
 ---
 

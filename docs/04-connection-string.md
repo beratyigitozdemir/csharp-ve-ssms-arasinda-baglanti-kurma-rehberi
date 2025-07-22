@@ -10,7 +10,9 @@
 
 Veritabanı bağlantısının başarılı şekilde kurulabilmesi için, **bağlantı cümlesinin** doğru ve eksiksiz tanımlanması gerekir. Connection string içinde sunucu adı, veritabanı adı, kimlik doğrulama yöntemi gibi bilgilerin yer alması, **bağlantı güvenliği** ve **kararlılığı açısından** çok önemlidir.
 
-Hatalı tanımlanmış bir connection string; **bağlantı hatalarına**, **yetki sorunlarına** veya **veritabanına erişememe problemlerine** yol açabilir. **Bu nedenle, bağlantı cümlesinin yapısının ve bileşenlerini iyi anlamak büyük önem taşır.**
+Hatalı tanımlanmış bir connection string; **bağlantı hatalarına**, **yetki sorunlarına** veya **veritabanına erişememe problemlerine** yol açabilir. 
+
+**Bu nedenle, bağlantı cümlesinin yapısının ve bileşenlerini iyi anlamak büyük önem taşır.**
 
 ---
 
@@ -39,7 +41,7 @@ Windows Authentication, yerel ve kurumsal ağlarda güvenli bağlantılar için 
 
 **Sıradaki bağlantı yöntemi tam olarak bu ihtiyacı karşılıyor → SQL Server Authentication**
 
-### 2. SQL Authentication ile Bağlantı
+### 2. SQL Server Authentication ile Bağlantı
 
 SQL Server Authentication ile bağlantı kurarken, **SQL Server içerisinde tanımlı kullanıcı adı ve şifreyi** doğrudan connection string'e dahil edersiniz. **Bu durumda Windows Authentication yerine SQL Server Authentication kullanılır.**
 
@@ -49,8 +51,8 @@ string connectionString = "Server=BERAT;Database=KisiVeritabani;User Id=sqluser;
 
 ```
 
-- **User Id=sqluser** → SQL Serverda tanımlı, SQL Server Authentication ile kullanılacak kullanıcının adı.
-- **Password=1234**   → SQL Serverda tanımlı, SQL Server Authenticationda kullanılacak kullanıcının parolası.
+- `User Id=sqluser` → SQL Serverda tanımlı, SQL Server Authentication ile kullanılacak kullanıcının adı.
+- `Password=1234`   → SQL Serverda tanımlı, SQL Server Authenticationda kullanılacak kullanıcının parolası.
 
 > **Not:**
 > Kullanıcı adı ve şifre SQL Server üzerinde oluşturulmuş olmalıdır. 
@@ -72,9 +74,9 @@ string connectionString = "Server=192.168.1.100;Database=KisiVeritabani;User Id=
 
 ```
 
-- **192.168.1.100** → SQL Server'ın kurulu olduğu cihazın IP adresidir.
-- **User Id=sqluser** → SQL Serverda tanımlı, SQL Server Authentication ile kullanılacak kullanıcının adı.
-- **Password=1234**   → SQL Serverda tanımlı, SQL Server Authenticationda kullanılacak kullanıcının parolası.
+- `Server=192.168.1.100` → SQL Server'ın kurulu olduğu cihazın IP adresidir.
+- `User Id=sqluser` → SQL Serverda tanımlı, SQL Server Authentication ile kullanılacak kullanıcının adı.
+- `Password=1234`   → SQL Serverda tanımlı, SQL Server Authenticationda kullanılacak kullanıcının parolası.
 
 > Windows Authentication Kullanılacaksa:
 
@@ -84,22 +86,22 @@ string connectionString = "Server=192.168.1.100;Database=KisiVeritabani;Integrat
 
 ```
 
-**Son adımlardan biri olarak, SQL Server'a erişim için kullanılan **varsayılan portun** ne anlama geldiğini inceleyelim:**
+**Son adımlardan biri olarak, SQL Server'a erişim için kullanılan varsayılan portun ne anlama geldiğini inceleyelim:**
 
 #### Bağlantının Anahtarı: SQL Server'ın Varsayılan Portu (1433)
 
 SQL Server, istemcilerle TCP/IP üzerinden iletişim kurarken varsayılan olarak **1433 numaralı portu** kullanır.
-Bu, birçok sistemde **önceden tanımlı** ve yaygın olarak kullanılan** bağlantı portudur.
+Bu, birçok sistemde **önceden tanımlı** ve **yaygın olarak kullanılan** bağlantı portudur.
 
 Eğer SQL Server bu port üzerinden çalışıyorsa, connection string içerisinde port numarasını **ayrıca belirtmen gerekmez.**
 
-Fakat bazı sistemlerde SQL Server **1433 dışında bir port kullanacak şekilde yapılandırılmış** olabilir.
-Bu durum özellikle şu senaryolarda karşımıza çıkar:
+> Fakat bazı sistemlerde SQL Server **1433 dışında bir port kullanacak şekilde yapılandırılmış** olabilir.
+> Bu durum özellikle şu senaryolarda karşımıza çıkar:
 
 - **Güvenlik nedeniyle port değiştirilmişse,**
 - **Test, Docker, sanal makine gibi ortamlarda farklı port atanmışsa.**
 
-Bu gibi durumlarda, connection string'e port numarasını açıkça ekleme gerekir.
+Bu gibi durumlarda, connection string'e **port numarasını** eklemek gerekir.
 
 **IP adresinden sonra virgül (,) ile belirtilir.**
 
@@ -121,8 +123,10 @@ string connectionString = "Server=192.168.1.100,1500;Database=KisiVeritabani;Use
 | Uzak ağ, Docker, VM gibi ortamlarda bağlantı kuruluyorsa    | Evet                 |
 | Bağlantı cümlesinde açıkça ifade edilmek isteniyorsa        | Tercihe bağlı        |
 
-**Bu adımlarla birlikte farklı connection string yapılarını görmüş ve hangi durumlarda nasıl kullanılmaları gerektiğini görmüş olduk.**
+**Bu adımlarla birlikte farklı connection string yapılarını görmüş ve hangi durumlarda nasıl kullanılmaları gerektiğini incelemiş olduk.**
 
-Bir sonraki bölümde, oluşturduğumuz connection string yapısını kullanarak, SQL verisini C# tarafında nasıl işleyeceğimizi detaylıca ele alacağımız [SQL Verisini C#'ta Kullanma](./05-sql-verisini-csharp-tarafinda-kullanma.md) bölümüne geçiyoruz.
+Bir sonraki bölümde, oluşturduğumuz connection string yapısını kullanarak, SQL verisini C# tarafında nasıl işleyeceğimizi detaylıca ele alacağımız **SQL Verisini C#'ta Kullanma** bölümüne geçiyoruz.
+
+**SQL Verisini C#'ta Kullanma Bölümü** → [Tıklayarak Buradan Ulaşabilirsiniz](./05-sql-verisini-csharp-tarafinda-kullanma.md)
 
 ---

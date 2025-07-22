@@ -26,7 +26,7 @@ Bu arayüz ile veritabanı arasında bağlantıyı sağlayacak ve işlevleri gö
 
 ## Formdan Alınan Verileri SQL Server'a Gönderme
 
-Bu kısım, uygulamanın SQL Server ile etkileşim kurmasını sağlayan kodları parça parça inceleyecek ve bağlantı için önemli olan satırları detayli bir açıklayacaktır.
+Bu kısım, uygulamanın SQL Server ile etkileşim kurmasını sağlayan kodları parça parça inceleyecek ve bağlantı için önemli olan satırları detaylı bir şekilde açıklayacaktır.
 
 **Böylece yalnızca bu kodu kullanmakla kalmayacak, arkasındaki mantığı ve işleyişi de anlayarak öğrenmiş olacağız.**
 
@@ -39,14 +39,14 @@ using System.Data;
 
 ```
 
-- **using System.Data;** → Veritabanı işlemleri için temel veri sınıflarını (DataTable,DatasSet gibi) kullanılmasını sağlar.
-- **using Microsoft.Data.SqlClient;** → Veritabanıyla etkileşim kurmak için ihtiyaç duyduğumuz tüm temel sınıflar bu yapı altında yer alır.
+- `using System.Data;` → Veritabanı işlemleri için temel veri sınıflarını (DataTable,DatasSet gibi) kullanılmasını sağlar.
+- `using Microsoft.Data.SqlClient;` → Veritabanıyla etkileşim kurmak için ihtiyaç duyduğumuz tüm temel sınıflar bu yapı altında yer alır.
 
 > Dikkat!
 > Bu namespace'i kullanabilmek için önceki adımlarda da gösterildiği gibi 
 > Microsoft.Data.SqlClient NuGet paketinin projeye eklenmiş olması gerekir.
 
-### 2. Connection String Tanımı
+### 2. Connection String Tanımı 
 
 ```csharp
 
@@ -56,10 +56,10 @@ string connectionString = "Server=BERAT;Database=KisiVeritabani;Integrated Secur
 
 **SQL Server'a bağlanmak için gerekli olan bilgileri içerir:**
 
-- **Server** → Sunucu adı.
-- **Database** → Hedef veritabanı.
-- **Integrated Security** → Windows kimlik doğrulaması kullanılır.
-- **TrustServerCertificate=True** → Sertifika hatalarını yoksayar.
+- `Server` → Sunucu adı.
+- `Database` → Hedef veritabanı.
+- `Integrated Security` → Windows kimlik doğrulaması kullanılır.
+- `TrustServerCertificate=True` → Sertifika hatalarını yoksayar.
 
 ### 3. Form Yüklendiğinde Kayıtları Listeleme
 
@@ -134,7 +134,7 @@ private void BtnKaydet_Click_1(object sender, EventArgs e)
 |-------|----------|
 | `using (SqlConnection connection = new SqlConnection(connectionString))` | `SqlConnection` sınıfı ile bağlantı nesnesi oluşturulur. `using` bloğu sayesinde bağlantı işi bitince otomatik kapatılır. |
 | `connection.Open();` | Bağlantıyı açar. |
-| `string query = "INSERT INTO Kisiler (Ad, Soyad) VALUES (@Ad, @Soyad)";` | `SQL Sorgusu:` Girilen verileri Kisiler tablosuna ekler. |
+| `string query = "INSERT INTO Kisiler (Ad, Soyad) VALUES (@Ad, @Soyad)";` | **SQL Sorgusu:** Girilen verileri Kisiler tablosuna ekler. |
 | `SqlCommand command = new SqlCommand(query, connection);` | Sorguyu ve bağlantıyı SQL'e gönderir. |
 | `command.Parameters.AddWithValue(...)` | Sorgudaki `Ad` ve `Soyad` değerlerini TextBox'tan alır. |
 | `command.ExecuteNonQuery();` | Veritabanına sorguyu gönderir ve çalıştırır. |
@@ -143,16 +143,21 @@ private void BtnKaydet_Click_1(object sender, EventArgs e)
 
 ### Formdan Veritabanına: Sürecin Kısa Özeti
 
-**Kullanıcı Giriş Yapar**
+> Kullanıcı Giriş Yapar
 - Ad ve Soyad bilgilerini formdaki TextBox'lara yazar,
 - **Kaydet** butonuna tıklar.
 
-**Arka Planda Ne Olur?**
+> Arka Planda Ne Olur?
 - `SqlConnection` ile bağlantı açılır,
 - `SqlCommand` ile INSERT sorgusu çalıştırılır,
 - Veri başarıyla eklenince `KisileriListele()` metodu çalıştırılır.
 
-**Sonuç:** DataGridView, yeni eklenen kişiyle birlikte güncellenir.
+> Sonuç Olarak 
+DataGridView, yeni eklenen verilerle birlikte güncellenir ve ad, soyad bilgileri listelenir.
+
+![image](https://github.com/user-attachments/assets/1db8d8f7-ef83-486f-9945-cd67cda8049f)
+
+**Başarılı bir bağlantı ve veri girişinde verileriniz böyle listelenecektir.**
 
 ---
 
@@ -160,15 +165,17 @@ private void BtnKaydet_Click_1(object sender, EventArgs e)
 
 Bu bölümde, bir C# Windows Forms uygulamasında SQL Server verisiyle nasıl etkileşim kuracağımızı adım adım öğrendik. Hem form üzerindeki kullanıcı girişlerini nasıl veritabanına ekleyeceğimizi hem de eklenen kayıtların nasıl listelendiğini detaylı biçimde inceledik.
 
-**Ayrıca bu örnek projeyi, kolayca inceleyip kendi ortamınızda test edebilmeniz için, bu rehber içerisinde sizinle paylaştım. Böylece anlatılan her adımı doğrudan uygulamalı olarak inceleyebilir ve kendi geliştirme ortamınızda test edebilirsiniz.**
+**Ayrıca bu örnek uygulamayı, kolayca inceleyip kendi ortamınızda test edebilmeniz için, bu rehber içerisinde sizinle paylaştım. Böylece anlatılan her adımı doğrudan uygulamalı olarak inceleyebilir ve kendi geliştirme ortamınızda test edebilirsiniz.**
 
 > Dikkat! 
-> Paylaşılan projedeki connectionString yapısını, kendinize göre özelleştirmeyi unutmayın. Aksi takdirde bağlantı başarılı bir şekilde kurulamaz.
+> Paylaşılan uygulamadaki connectionString yapısını, kendinize göre özelleştirmeyi unutmayın. Aksi takdirde bağlantı başarılı bir şekilde kurulamaz.
 
-Örnek Proje Dosyası (ilk olarak `README` dosyasını okuyunuz) → [Projeye Git](../sqlserverconnection)
+Örnek Uygulama Dosyası (ilk olarak `README` dosyasını okuyunuz) → [Uygulamaya Git](../sqlserverconnection)
 
 Bu bölüm, SQL verisini C# tarafında nasıl kullanılacağına dair basit ama işlevsel bir örnek uygulama geliştirmiştir.
 
-Bir sonraki bölümde, bu örnekten yola çıkarak karşılaşabilecek [Olası Hatalara ve Kritik Noktalar](./06-olasi-hatalar-ve-kritik-noktalar.md) kısmına göz atacağız.
+Bir sonraki bölümde, bu örnekten yola çıkarak karşılaşabilecek **Olası Hatalara ve Kritik Noktalar** kısmına göz atacağız.
+
+**Olası Hatalar ve Kritik Noktalar Bölümü** → [Tıklayarak Buradan Ulaşabilirsiniz](./06-olasi-hatalar-ve-kritik-noktalar.md)
 
 ---
