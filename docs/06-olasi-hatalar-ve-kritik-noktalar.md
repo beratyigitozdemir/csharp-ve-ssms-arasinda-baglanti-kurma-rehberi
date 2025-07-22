@@ -22,17 +22,18 @@ Hazırladığımız Windows Forms uygulamasını çalıştırma sürecinde, **be
 
 Bu hata, SQL Server'a bağlantı kurulamaması durumunda oluşur. Hata kodu `Error:40`, SQL Server'a bağlanma girişiminin başarısız olduğu gösterilir.
 
-| **Neden**             |  **Açıklama**                                                                              |  **Çözüm**                                                                                      |
-|-------------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-|  **SQL Server çalışmıyor** | Sunucu kapalıysa bağlantı kurulamaz.                                                        | `services.msc` → **SQL Server (MSSQLSERVER)** servisini çalıştırın.                              |
-|  **Sunucu adı hatalı**     | `Server=` kısmındaki isim yanlış olabilir.                                                   | SSMS'de başarılı şekilde bağlandığınız **sunucu adını kullanın**. Örn: `BERAT`, `localhost`, `.\SQLEXPRESS` |
-|  **TCP/IP devre dışı**     | Ağ bağlantısı için TCP/IP etkin değilse erişim sağlanamaz.                                   | `SQL Server Configuration Manager` → **TCP/IP**'nin **Enabled** olduğundan emin olun.            |
+| **Neden**                    | **Açıklama**                                                                                     | **Çözüm**                                                                                                  |
+|-----------------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **SQL Server çalışmıyor**    | Sunucu kapalıysa bağlantı kurulamaz.                                                             | `services.msc` → **SQL Server (MSSQLSERVER)** servisini çalıştırın.                                        |
+| **Connection string hatalı** | Connection string’iniz yanlış tanımlanmış olabilir.                                              | Doğru tanımlandığından emin olun.   |
+| **TCP/IP devre dışı**        | Ağ bağlantısı için TCP/IP etkin değilse erişim sağlanamaz.                                       | `SQL Server Configuration Manager` → **TCP/IP**'nin **Enabled** olduğundan emin olun.                      |
+
 
 
 > Önerilen Adımlar:
 
 1. **SQL Server servisi açık mı kontrol et.**
-2. `Server` adını kesin doğru girdiğinden emin ol.
+2. `Server` **adını kesin doğru girdiğinden emin ol.**
 3. **Connection String yapısında girdiğin bilgilerin doğru olduğundan emin ol ve eksiklik var mı kontrol et.**
 4. **Yapılması ve kontrol edilmesi gereken bağlantı ayarları doğru yapılandırıldı mı?** → `TCP/IP Protokolü` **açık mı emin ol**
 
@@ -43,12 +44,12 @@ Bu hata, SQL Server'a bağlantı kurulamaması durumunda oluşur. Hata kodu `Err
 
 Bu görseldeki hata mesajı, C# derleyicisinin `SqlConnection` türünü tanıyamadığını gösteriyor.
 
-Bu genellikle, gerekli namespace eklenmemişse ya da ilgili NuGet paketi projeye eklenmemişse meydana gelir.
+> Hatanın Kaynağı:
 
-> İzlenmesi Gereken Adımlar:
+Gerekli namespace eklenmemişse ya da ilgili NuGet paketi projeye eklenmemişse meydana gelir.
 
-1. `Microsoft.Data.SqlClient` NuGet paketinin yüklendiğinden emin olun.
-2. C#'ta yapmış olduğunuz form uygulamasının kod kısmına doğru namespace eklenmiş olmalı → `using Microsoft.Data.SqlClient;`
+1. `Microsoft.Data.SqlClient` **NuGet paketinin yüklendiğinden emin olun.**
+2. **C#'ta yapmış olduğunuz form uygulamasının kod kısmına doğru namespace eklenmiş olmalı.** → `using Microsoft.Data.SqlClient;`
 
 ---
 
