@@ -49,6 +49,16 @@ C# ile SQL Server arasında bağlantı kurma sürecine dair temel kavramları bi
 └──📝 README.md
 
 ```
+
+## Reponun Cihaza Klonlanması
+
+> Bu repoyu kendi cihazınıza indirip proje dosyalarına erişmek istiyorsanız, aşağıdaki komutu terminalinize (veya Git Bash'e) yazabilirsiniz:
+
+```bash
+
+git clone https://github.com/beratyigitozdemir/csharp-ve-ssms-arasinda-baglanti-kurma-rehberi.git
+
+```
  
 ## İçerik
 
