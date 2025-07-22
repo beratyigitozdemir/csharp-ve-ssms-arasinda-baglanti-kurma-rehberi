@@ -1,8 +1,8 @@
 # Olası Hatalar ve Kritik Noktalar
 
-Geliştirdiğimiz örnek Windows Forms uygulamasında, **bağlantı süreci ve veritabanı işlemleri sırasında bazı teknik sorunlarla karşılaşmak mümkündür.**
+Bağlantı süreci ve veritabanı işlemleri sırasında bazı teknik sorunlarla karşılaşmak mümkündür.
 
-Bu bölüm, uygulamanın çalışmasını engelleyebilecek hataları ve dikkat edilmesi gereken kritik noktaları incelemeyi amaçlamıştır.
+Bu bölüm, geliştirdiğimiz **WinForms** uygulamasının çalışmasını engelleyebilecek hataları ve dikkat edilmesi gereken kritik noktaları incelemeyi amaçlamıştır.
 
 **Böylece uygulamanın sorunsuz çalışmasını sağlamak ve hata ayıklama sürecinde zaman kazanmak mümkün olacaktır.**
 
