@@ -34,7 +34,7 @@ Alternatif olarak, SQL Server servisinin çalışıp çalışmadığını bu yö
 
 5. Servisin **Başlangıç Türü** kısmı **Otomatik** olarak ayarlanmışsa, sistem her açıldığında bu servis otomatik başlar. Değilse, isteğe bağlı olarak değiştirebilirsiniz.
 
- > Not:
+> Not:
 - Eğer listede SQL Server servisini göremiyorsanız, kurulum sırasında servis adı farklı verilmiş olabilir.
 - **MSSQLSERVER** → varsayılan örnek
 - **SQLEXPRESS** → SQL Express sürümü için yaygın ad

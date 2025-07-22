@@ -27,7 +27,7 @@ CREATE TABLE Kisiler (
 );
 ```
 
-Bu kodu çalıştırdığınızda aşağıdaki gibi bir çıktı aldıysanız, veritabanını başarıyla oluşturmuşsunuz demektir.
+> Bu kodu çalıştırdığınızda aşağıdaki gibi bir çıktı aldıysanız, veritabanını başarıyla oluşturmuşsunuz demektir.
 
 ![image](https://github.com/user-attachments/assets/c1bd09d5-ecc5-4ee7-ab73-cd7c072d427a)
 
@@ -50,7 +50,7 @@ Bu formu, kullanıcıdan alınan ad ve soyad bilgilerini veritabanına kaydetmek
 **BtnKaydet** → Buton, verileri yüklemek için kullanılacak  
 **dgvKisiler** → Veritabanından gelen verileri görüntüleyeceğimiz DataGridView
 
-Aşağıda, form üzerinde bileşenlerin nasıl yerleştirildiğine dair bir örnek form görüntüsü bulunmaktadır.
+> Aşağıda, form üzerinde bileşenlerin nasıl yerleştirildiğine dair bir örnek form görüntüsü bulunmaktadır.
 
 ![image](https://github.com/user-attachments/assets/822fa1a8-81d1-4627-9e4e-077a8ce05061)
 
