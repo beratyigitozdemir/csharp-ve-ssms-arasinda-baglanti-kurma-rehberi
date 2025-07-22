@@ -32,20 +32,19 @@ C# ile SQL Server arasında bağlantı kurma sürecine dair temel kavramları bi
 ```
 
 📁 csharp-ve-ssms-arasinda-baglanti-kurma-rehberi/
-├── 📁 baglanti-rehberi/
-│   ├───
-│   │   ├──  📖 01-veritabani-ve-winforms-projesi-olusturma.md
-│   │   ├──  📖 02-nuget-paketi-kurulumu.md
-│   │   ├──  📖 03-baglanti-ayarlari.md
-│   │   ├──  📖 04-connection-string.md
-│   │   └──  📖 05-sql-verisini-csharp-tarafinda-kullanma.md
-│   └──────	 📖 06-olasi-hatalar-ve-kritik-noktalar.md   
 │
-├── 📁 sqlserverconnection
-│   ├─── 
-│			├──📁 sqlserverconnection  			
-│	  		└──📝 README.md
-│	
+├── 📁 baglanti-rehberi/
+│   ├── 📖 01-veritabani-ve-winforms-projesi-olusturma.md
+│   ├── 📖 02-nuget-paketi-kurulumu.md
+│   ├── 📖 03-baglanti-ayarlari.md
+│   ├── 📖 04-connection-string.md
+│   ├── 📖 05-sql-verisini-csharp-tarafinda-kullanma.md
+│   └── 📖 06-olasi-hatalar-ve-kritik-noktalar.md
+│
+├── 📁 sqlserverconnection/
+│   ├── 📁 sqlserverconnection/
+│   └── 📝 README.md
+│
 ├── © LICENSE
 └──📝 README.md
 
