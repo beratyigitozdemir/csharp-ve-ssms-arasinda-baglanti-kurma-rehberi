@@ -22,13 +22,11 @@ Hazırladığımız Windows Forms uygulamasını çalıştırma sürecinde, **be
 
 Bu hata, SQL Server'a bağlantı kurulamaması durumunda oluşur. Hata kodu `Error:40`, SQL Server'a bağlanma girişiminin başarısız olduğu gösterilir.
 
-| **Neden**                | **Açıklama**                                               | **Çözüm**                                                                             |
-|--------------------------|------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| SQL Server çalışmıyor    | Sunucu kapalıysa bağlantı kurulamaz.                       | `services.msc` → **SQL Server (MSSQLSERVER)** servisini çalıştırın.                   |
-| Connection string hatalı | Connection string’iniz yanlış tanımlanmış olabilir.        | Doğru tanımlandığından emin olun.                                                     |
-| TCP/IP devre dışı        | Ağ bağlantısı için TCP/IP etkin değilse erişim sağlanamaz. | `SQL Server Configuration Manager` → **TCP/IP**'nin **Enabled** olduğundan emin olun. |                      |
-
-
+| **Neden**                 | **Açıklama**                             | **Çözüm**                                                              |
+|---------------------------|------------------------------------------|------------------------------------------------------------------------|
+| SQL Server çalışmıyor     | Sunucu kapalıysa bağlantı kurulamaz.     | `services.msc` → **SQL Server (MSSQLSERVER)** servisini başlatın.     |
+| Connection string hatalı  | Tanım eksik veya yanlış olabilir.        | Yapının doğru tanımlandığından emin olun.                             |
+| TCP/IP devre dışı         | Ağ bağlantısı kurulamaz.                 | `SQL Server Configuration Manager` → **TCP/IP**’yi etkinleştirin.     |
 
 > Önerilen Adımlar:
 
