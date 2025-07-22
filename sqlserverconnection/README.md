@@ -17,7 +17,7 @@ C# ile SQL Server arasında bağlantı kurmayı öğrenmek isteyen geliştiricil
 
 ## İçerik Özeti
 
->Uygulama temel olarak şu adımlari içerir:
+> Uygulama temel olarak şu adımlari içerir:
 
 1. Form bileşenleri üzerinden kullanıcıdan ad, soyad bilgisi alma.
 2. `Kaydet` butonuyla SQL Server'a alınan verileri ekleme.
