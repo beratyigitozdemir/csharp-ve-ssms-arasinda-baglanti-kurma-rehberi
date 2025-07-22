@@ -30,9 +30,9 @@ Bu hata, SQL Server'a bağlantı kurulamaması durumunda oluşur. Hata kodu `Err
 
 > Önerilen Adımlar:
 
-1. **SQL Server servisi açık mı kontrol et.**
-2. **Connection String yapısında girdiğin bilgilerin doğru olduğundan emin ol ve eksiklik var mı kontrol et.**
-3. **Yapılması ve kontrol edilmesi gereken bağlantı ayarları doğru yapılandırıldı mı?** → `TCP/IP Protokolü` **açık mı emin ol**
+1. **SQL Server servisi açık mı kontrol edin.**
+2. **Connection String yapısında girdiğin bilgilerin doğru olduğundan emin ol ve eksiklik var mı kontrol edin.**
+3. **Yapılması ve kontrol edilmesi gereken bağlantı ayarları doğru yapılandırıldı mı?** → `TCP/IP Protokolü` **açık mı emin olun**
 
 
 ### 2. NuGet Paketi Eksik veya Referans Hatası
@@ -57,7 +57,7 @@ Bu repository, C# ile SQL Server arasında güvenli ve verimli bağlantı kurmak
 **Bu bağlantı sürecinde dikkate alınması gereken kritik noktalar hatırlatıcı bir şekilde bu bölümde incelenecektir.**
 
 - Belirtilen NuGet paketini projeye yüklediğinizden ve doğru namespace kullandığınızdan emin olun. → [NuGet Paketi Kurma Bölümü](./02-nuget-paketi-kurma.md)
-- Kontrol edilmesi gereken bağlantı ayarlarını mutlaka gözden geçirin ve uygulanması gereken kısımlardan emin olun. → [Bağlantı Ayarları Bölümü](./03-baglanti-ayarlari.md)
+- Kontrol edilmesi gereken bağlantı ayarlarını gözden geçirin ve gerekli kısımlardan emin olun. → [Bağlantı Ayarları Bölümü](./03-baglanti-ayarlari.md)
 - SQL **bağlantı cümlenizin (connection string)** doğru olduğundan emin olun. → [Connection String Böümü](./04-connection-string.md)
 
 
