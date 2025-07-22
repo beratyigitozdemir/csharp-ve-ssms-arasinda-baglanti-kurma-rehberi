@@ -56,9 +56,9 @@ Bu repository, C# ile SQL Server arasında güvenli ve verimli bağlantı kurmak
 
 **Bu bağlantı sürecinde dikkate alınması gereken kritik noktalar hatırlatıcı bir şekilde bu bölümde incelenecektir.**
 
-- Belirtilen NuGet paketini projeye yüklediğinizden ve doğru namespace kullandığınızdan emin olun. → [Buradan NuGet Paketi Kurma Bölümüne Ulaşabilirsiniz](./02-nuget-paketi-kurma.md)
-- Kontrol edilmesi gereken bağlantı ayarlarını mutlaka gözden geçirin ve uygulanması gereken kısımlardan emin olun. → [Buradan Bağlantı Ayarları Bölümüne Ulaşabilirsiniz](./03-baglanti-ayarlari.md)
-- SQL **bağlantı cümlenizin (connection string)** doğru olduğundan emin olun. → [Buradan Connection String Böümüne Ulaşabilirsiniz.](./04-connection-string.md)
+- Belirtilen NuGet paketini projeye yüklediğinizden ve doğru namespace kullandığınızdan emin olun. → [NuGet Paketi Kurma Bölümü](./02-nuget-paketi-kurma.md)
+- Kontrol edilmesi gereken bağlantı ayarlarını mutlaka gözden geçirin ve uygulanması gereken kısımlardan emin olun. → [Bağlantı Ayarları Bölümü](./03-baglanti-ayarlari.md)
+- SQL **bağlantı cümlenizin (connection string)** doğru olduğundan emin olun. → [Connection String Böümü](./04-connection-string.md)
 
 
 ---
