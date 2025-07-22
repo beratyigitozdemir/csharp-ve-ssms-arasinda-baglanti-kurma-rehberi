@@ -38,6 +38,7 @@ Aşağıdaki içerik tablosu, bu rehberde ele alınan konulara hızlı erişim s
 - [Connection String](baglanti-rehberi/04-connection-string.md)
 - [SQL Verisini C#'ta Kullanma](baglanti-rehberi/05-sql-verisini-csharp-tarafinda-kullanma.md)
 - [Olası Hatalar ve Kritik Noktalar](baglanti-rehberi/06-olasi-hatalar-ve-kritik-noktalar.md)
+
 ---
 
 ## Lisans
