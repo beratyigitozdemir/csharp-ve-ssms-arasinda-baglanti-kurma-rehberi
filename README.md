@@ -7,7 +7,7 @@ Bu rehber, C# uygulamaları ile SQL Server Management Studio (SSMS) arasında ba
 
 C# ile SQL Server arasında bağlantı kurma sürecine dair temel kavramları bilmeyen kullanıcılar için açıklayıcı bilgiler sunmak; konuya aşina olan geliştiriciler için hatırlatıcı ve referans niteliğinde bir kaynak sağlamak amaç edinmiştir.
 
-**İki farklı kullanıcı kitlesine** hitap etmektedir:
+> İki farklı kullanıcı kitlesine hitap etmektedir:
 
 ### 1. Temel Bilgiye İhtiyaç Duyanlar
 
@@ -26,6 +26,30 @@ C# ile SQL Server arasında bağlantı kurma sürecine dair temel kavramları bi
 - Kısayol niteliğinde kullanılabilecek, teknik referans bölümleri oluşturmak.
 
 ---
+
+## Proje Yapısı
+
+```
+
+📁 csharp-ve-ssms-arasinda-baglanti-kurma-rehberi/
+├── 📁 baglanti-rehberi/
+│   ├───
+│   │   ├──  📖 01-veritabani-ve-winforms-projesi-olusturma.md
+│   │   ├──  📖 02-nuget-paketi-kurulumu.md
+│   │   ├──  📖 03-baglanti-ayarlari.md
+│   │   ├──  📖 04-connection-string.md
+│   │   └──  📖 05-sql-verisini-csharp-tarafinda-kullanma.md
+│   └──────	 📖 06-olasi-hatalar-ve-kritik-noktalar.md   
+│
+├── 📁 sqlserverconnection
+│   ├─── 
+│		├──📁 sqlserverconnection  			
+│	  	└──📝 README.md
+│	
+├── © LICENSE
+└──📝 README.md
+
+```
  
 ## İçerik
 
