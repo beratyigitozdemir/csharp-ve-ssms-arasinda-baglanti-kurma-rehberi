@@ -177,5 +177,3 @@ Bu bölüm, SQL verisini C# tarafında nasıl kullanılacağına dair basit ama 
 Bir sonraki bölümde, bu örnekten yola çıkarak karşılaşabilecek **Olası Hatalara ve Kritik Noktalar** kısmına göz atacağız.
 
 **Olası Hatalar ve Kritik Noktalar Bölümü** → [Tıklayarak Buradan Ulaşabilirsiniz](./06-olasi-hatalar-ve-kritik-noktalar.md)
-
----

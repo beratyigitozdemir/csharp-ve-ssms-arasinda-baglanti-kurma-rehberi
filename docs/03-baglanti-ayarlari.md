@@ -73,5 +73,3 @@ SQL Server'ın uzak istemcilerden bağlantı kabul edebilmesi için sunucu ayarl
 Bu adımlarla birlikte, **SQL Server** ve **SSMS** tarafında bağlantının sağlıklı kurulabilmesi için gerekli olan temel ayarları kontrol etmiş olduk. Sıradaki adımda, en kritik nokta olan **Connection String** yapısını incelemiş olacağız.
 
 **Connection String Bölümü** → [Tıklayarak Buradan Ulaşabilirsiniz](./04-connection-string.md)
-
----

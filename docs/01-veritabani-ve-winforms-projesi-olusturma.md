@@ -57,5 +57,3 @@ Bu formu, kullanıcıdan alınan ad ve soyad bilgilerini veritabanına kaydetmek
 Bu adımların sonunda, gerekli arayüz bileşenlerini forma ekleyerek, veritabanı bağlantısında kullanacağımız basit ve kullanıma hazır bir Windows Forms uygulamasını başarıyla oluşturduk. Sıradaki adımda, veritabanı bağlantısını gerçekleştirebilmek için gerekli olan **NuGet paketini** projemize dahil edeceğiz.
 
 **NuGet Paketi Kurulumu Bölümü** → [Tıklayarak Buradan Ulaşabilirsiniz](./02-nuget-paketi-kurma.md)
-
----

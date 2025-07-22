@@ -128,5 +128,3 @@ string connectionString = "Server=192.168.1.100,1500;Database=KisiVeritabani;Use
 Bir sonraki bölümde, oluşturduğumuz connection string yapısını kullanarak, SQL verisini C# tarafında nasıl işleyeceğimizi detaylıca ele alacağımız **SQL Verisini C#'ta Kullanma** bölümüne geçiyoruz.
 
 **SQL Verisini C#'ta Kullanma Bölümü** → [Tıklayarak Buradan Ulaşabilirsiniz](./05-sql-verisini-csharp-tarafinda-kullanma.md)
-
----
