@@ -43,8 +43,8 @@ C# ile SQL Server arasında bağlantı kurma sürecine dair temel kavramları bi
 │
 ├── 📁 sqlserverconnection
 │   ├─── 
-│		├──📁 sqlserverconnection  			
-│	  	└──📝 README.md
+│			├──📁 sqlserverconnection  			
+│	  		└──📝 README.md
 │	
 ├── © LICENSE
 └──📝 README.md
