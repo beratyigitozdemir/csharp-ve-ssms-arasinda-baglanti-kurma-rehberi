@@ -52,14 +52,13 @@ Gerekli namespace eklenmemişse ya da ilgili NuGet paketi projeye yüklenmemişs
 
 ## Kritik Noktalar 
 
-Bu repository, C# ile SQL Server arasında güvenli ve verimli bağlantı kurmak amacıyla tüm süreci adım adım ele almaktadır. 
+Bu kısım, bağlantı sürecindeki kritik noktaları hatırlatarak, olası hataların önüne geçmek ve doğru yapılandırmayı sağlamak amacıyla oluşturulmuştur.
 
-**Bu bağlantı sürecinde dikkate alınması gereken kritik noktalar hatırlatıcı bir şekilde bu bölümde incelenecektir.**
+> Bağlantı sürecinde dikkate alınması gereken kritik noktalar:
 
 - Belirtilen NuGet paketini projeye yüklediğinizden ve doğru namespace kullandığınızdan emin olun. → [NuGet Paketi Kurma Bölümü](./02-nuget-paketi-kurma.md)
 - Kontrol edilmesi gereken bağlantı ayarlarını gözden geçirin ve gerekli kısımlardan emin olun. → [Bağlantı Ayarları Bölümü](./03-baglanti-ayarlari.md)
 - SQL **bağlantı cümlenizin (connection string)** doğru olduğundan emin olun. → [Connection String Böümü](./04-connection-string.md)
-
 
 ---
 
