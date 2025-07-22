@@ -54,7 +54,7 @@ string connectionString = "Server=BERAT;Database=KisiVeritabani;Integrated Secur
 
 ```
 
-**SQL Server'a bağlanmak için gerekli olan bilgileri içerir:**
+> SQL Server'a bağlanmak için gerekli olan bilgileri içerir:
 
 - `Server` → Sunucu adı.
 - `Database` → Hedef veritabanı.
@@ -157,7 +157,7 @@ DataGridView, yeni eklenen verilerle birlikte güncellenir ve ad, soyad bilgiler
 
 ![image](https://github.com/user-attachments/assets/1db8d8f7-ef83-486f-9945-cd67cda8049f)
 
-**Başarılı bir bağlantı ve veri girişinde verileriniz böyle listelenecektir.**
+> Başarılı bir bağlantı ve veri girişinde verileriniz böyle listelenecektir.
 
 ---
 
