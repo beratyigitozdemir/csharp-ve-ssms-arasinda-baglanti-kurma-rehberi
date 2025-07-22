@@ -31,12 +31,11 @@ Bu hata, SQL Server'a bağlantı kurulamaması durumunda oluşur. Hata kodu `Err
 > Önerilen Adımlar:
 
 1. **SQL Server servisi açık mı kontrol et.**
-2. `Server` **adını kesin doğru girdiğinden emin ol.**
-3. **Connection String yapısında girdiğin bilgilerin doğru olduğundan emin ol ve eksiklik var mı kontrol et.**
-4. **Yapılması ve kontrol edilmesi gereken bağlantı ayarları doğru yapılandırıldı mı?** → `TCP/IP Protokolü` **açık mı emin ol**
+2. **Connection String yapısında girdiğin bilgilerin doğru olduğundan emin ol ve eksiklik var mı kontrol et.**
+3. **Yapılması ve kontrol edilmesi gereken bağlantı ayarları doğru yapılandırıldı mı?** → `TCP/IP Protokolü` **açık mı emin ol**
 
 
-### 2. NuGet Paketi Eksik veya Referans Hatasu
+### 2. NuGet Paketi Eksik veya Referans Hatası
 
 ![image](https://github.com/user-attachments/assets/e6975178-8f2d-4741-8988-1bd295ceb562)
 
@@ -44,7 +43,7 @@ Bu görseldeki hata mesajı, C# derleyicisinin `SqlConnection` türünü tanıya
 
 > Hatanın Kaynağı:
 
-Gerekli namespace eklenmemişse ya da ilgili NuGet paketi projeye eklenmemişse meydana gelir.
+Gerekli namespace eklenmemişse ya da ilgili NuGet paketi projeye yüklenmemişse bu hata meydana gelir.
 
 1. `Microsoft.Data.SqlClient` **NuGet paketinin yüklendiğinden emin olun.**
 2. **C#'ta yapmış olduğunuz form uygulamasının kod kısmına doğru namespace eklenmiş olmalı.** → `using Microsoft.Data.SqlClient;`
@@ -57,11 +56,10 @@ Bu repository, C# ile SQL Server arasında güvenli ve verimli bağlantı kurmak
 
 **Bu bağlantı sürecinde dikkate alınması gereken kritik noktalar hatırlatıcı bir şekilde bu bölümde incelenecektir.**
 
-- **SQL Server Durumu:** SQL Server servislerinin çalıştığından emin olun.
-- **TCP/IP Protokolünü** kontrol edin aktif değilse etkinleştirmeyi unutmayın.
-- SQL **bağlantı cümlenizin (connection string)** doğru olduğundan emin olun.
-- Belirtilen NuGet paketini projeye yüklediğinizden emin olun.
-- **Doğru Namespace Kullanımı** → `using Microsoft.Data.SqlClient;` bu namespace bağlantı açısından çok kritik bir öneme sahiptir doğru yazdığınızdan emin olun.
+- Belirtilen NuGet paketini projeye yüklediğinizden ve doğru namespace kullandığınızdan emin olun. → [Buradan NuGet Paketi Kurma Bölümüne Ulaşabilirsiniz](./02-nuget-paketi-kurma.md)
+- Kontrol edilmesi gereken bağlantı ayarlarını mutlaka gözden geçirin ve uygulanması gereken kısımlardan emin olun. → [Buradan Bağlantı Ayarları Bölümüne Ulaşabilirsiniz](./03-baglanti-ayarlari.md)
+- SQL **bağlantı cümlenizin (connection string)** doğru olduğundan emin olun. → [Buradan Connection String Böümüne Ulaşabilirsiniz.](./04-connection-string.md)
+
 
 ---
 
