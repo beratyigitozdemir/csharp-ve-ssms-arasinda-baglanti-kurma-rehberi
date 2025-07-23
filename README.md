@@ -33,10 +33,10 @@ C# ile SQL Server arasında bağlantı kurma sürecine dair temel kavramları bi
 
 📁 csharp-ve-ssms-arasinda-baglanti-kurma-rehberi/
 │
-├── 📁 baglanti-rehberi/
+├── 📁 baglanti-adimlari/
 │   ├── 📖 01-veritabani-ve-winforms-projesi-olusturma.md
 │   ├── 📖 02-nuget-paketi-kurulumu.md
-│   ├── 📖 03-baglanti-ayarlari.md
+│   ├── 📖 03-kontrol-edilmesi-gereken-baglanti-ayarlari.md
 │   ├── 📖 04-connection-string.md
 │   ├── 📖 05-sql-verisini-csharp-tarafinda-kullanma.md
 │   └── 📖 06-olasi-hatalar-ve-kritik-noktalar.md
@@ -68,13 +68,13 @@ git clone https://github.com/beratyigitozdemir/csharp-ve-ssms-arasinda-baglanti-
 
 Aşağıdaki içerik tablosu, bu rehberde ele alınan konulara hızlı erişim sağlayacak şekilde yapılandırılmıştır. Başlıklara tıklayarak doğrudan ilgili bölümlere geçiş yapabilirsiniz. 
 
-- [Veritabanı Oluşturma](baglanti-sureci/01-veritabani-ve-winforms-projesi-olusturma.md)
-- [WinForms Projesi Oluşturma](https://github.com/beratyigitozdemir/csharp-ve-ssms-arasinda-baglanti-kurma-rehberi/blob/main/baglanti-sureci/01-veritabani-ve-winforms-projesi-olusturma.md#visual-studioda-winforms-projesi-olu%C5%9Fturma)
-- [NuGet Paketi Kurma](baglanti-sureci/02-nuget-paketi-kurulumu.md)
-- [Kontrol Edilmesi Gereken Bağlantı Ayarları](baglanti-sureci/03-kontrol-edilmesi-gereken-baglanti-ayarlari.md)
-- [Connection String](baglanti-sureci/04-connection-string.md)
-- [SQL Verisini C#'ta Kullanma](baglanti-sureci/05-sql-verisini-csharp-tarafinda-kullanma.md)
-- [Olası Hatalar ve Kritik Noktalar](baglanti-sureci/06-olasi-hatalar-ve-kritik-noktalar.md)
+- [Veritabanı Oluşturma](baglanti-adimlari/01-veritabani-ve-winforms-projesi-olusturma.md)
+- [WinForms Projesi Oluşturma](https://github.com/beratyigitozdemir/csharp-ve-ssms-arasinda-baglanti-kurma-rehberi/blob/main/baglanti-adimlari/01-veritabani-ve-winforms-projesi-olusturma.md#visual-studioda-winforms-projesi-olu%C5%9Fturma)
+- [NuGet Paketi Kurma](baglanti-adimlari/02-nuget-paketi-kurulumu.md)
+- [Kontrol Edilmesi Gereken Bağlantı Ayarları](baglanti-adimlari/03-kontrol-edilmesi-gereken-baglanti-ayarlari.md)
+- [Connection String](baglanti-adimlari/04-connection-string.md)
+- [SQL Verisini C#'ta Kullanma](baglanti-adimlari/05-sql-verisini-csharp-tarafinda-kullanma.md)
+- [Olası Hatalar ve Kritik Noktalar](baglanti-adimlari/06-olasi-hatalar-ve-kritik-noktalar.md)
 
 ---
 
