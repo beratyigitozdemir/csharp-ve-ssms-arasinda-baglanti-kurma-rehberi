@@ -39,12 +39,12 @@ using System.Data;
 
 ```
 
-- `using System.Data;` → Veritabanı işlemleri için temel veri sınıflarını (DataTable,DatasSet gibi) kullanılmasını sağlar.
 - `using Microsoft.Data.SqlClient;` → Veritabanıyla etkileşim kurmak için ihtiyaç duyduğumuz tüm temel sınıflar bu yapı altında yer alır.
+- `using System.Data;` → Veritabanı işlemleri için temel veri sınıflarını (DataTable,DatasSet gibi) kullanılmasını sağlar.
 
 > Dikkat!
 > Bu namespace'i kullanabilmek için önceki adımlarda da gösterildiği gibi 
-> Microsoft.Data.SqlClient NuGet paketinin projeye eklenmiş olması gerekir.
+> `Microsoft.Data.SqlClient` NuGet paketinin projeye eklenmiş olması gerekir.
 
 ### 2. Connection String Tanımı 
 
@@ -72,7 +72,7 @@ private void Form1_Load(object sender, EventArgs e)
 
 ```
 
-- **Form açıldığında**, veritabanındaki kayıtları göstermek için **KisileriListel() metodu** çalıştırılır.
+- **Form açıldığında**, veritabanındaki kayıtları göstermek için **KisileriListele() metodu** çalıştırılır.
 
 ### 4. Kayıtları Listeleme
 
