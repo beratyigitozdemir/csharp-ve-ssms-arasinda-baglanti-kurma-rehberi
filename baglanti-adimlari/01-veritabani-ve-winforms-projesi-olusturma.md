@@ -46,7 +46,7 @@ Visual Studio'yu açın ve bir Windows Forms App (.NET Framework) projesi oluşt
 **Bu formu, kullanıcıdan alınan ad ve soyad bilgilerini veritabanına kaydetmek ve kayıtlı verileri listelemek amacıyla kullanacağız.**
 
 > Form bileşenlerini ekledikten sonra aşağıdaki gibi adlandırınız: 
- 
+
 **txtAd** → Ad için kullanılacak TextBox  
 **txtSoyad** → Soyad için kullanılacak TextBox  
 **BtnKaydet** → Buton, verileri yüklemek için kullanılacak  
@@ -58,4 +58,4 @@ Visual Studio'yu açın ve bir Windows Forms App (.NET Framework) projesi oluşt
 
 Bu adımların sonunda, gerekli arayüz bileşenlerini forma ekleyerek, veritabanı bağlantısında kullanacağımız basit ve kullanıma hazır bir Windows Forms uygulamasını başarıyla oluşturduk. Sıradaki adımda, veritabanı bağlantısını gerçekleştirebilmek için gerekli olan **NuGet paketini** projemize dahil edeceğiz.
 
-**NuGet Paketi Kurulumu Bölümü** → [Tıklayarak Buradan Ulaşabilirsiniz](./02-nuget-paketi-kurma.md)
+**NuGet Paketi Kurulumu Bölümü** → [Tıklayarak Buradan Ulaşabilirsiniz](./02-nuget-paketi-kurulumu.md)
