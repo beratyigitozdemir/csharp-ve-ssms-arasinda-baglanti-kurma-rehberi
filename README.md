@@ -36,17 +36,21 @@ C# ile SQL Server arasında bağlantı kurma sürecine dair temel kavramları bi
 ├── 📁 baglanti-rehberi/
 │   ├── 📖 01-veritabani-ve-winforms-projesi-olusturma.md
 │   ├── 📖 02-nuget-paketi-kurulumu.md
-│   ├── 📖 03-kontrol-edilmesi-gereken-baglanti-ayarlari.md
+│   ├── 📖 03-baglanti-ayarlari.md
 │   ├── 📖 04-connection-string.md
 │   ├── 📖 05-sql-verisini-csharp-tarafinda-kullanma.md
 │   └── 📖 06-olasi-hatalar-ve-kritik-noktalar.md
 │
 ├── 📁 sqlserverconnection/
 │   ├── 📁 sqlserverconnection/
+│   │   ├── 🧩 Form1.cs
+│   │   ├── 🧩 Form1.Designer.cs
+│   │   └── 🧩 Program.cs
+│   ├── 🛠️  sqlserverconnection.sln
 │   └── 📝 README.md
 │
 ├── © LICENSE
-└──📝 README.md
+└── 📝 README.md
 
 ```
 
