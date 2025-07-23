@@ -2,7 +2,7 @@
 
 Bu klasör, C# ile SQL Server arasında bağlantı kurmak için izlenmesi gereken adımları içeren dosyaları barındırır. 
 
-Her adım, bağlantı sürecinin bir aşamısını sade ve anlaşılır biçimde açıklar.
+> Her adım, bağlantı sürecinin bir aşamasını sade ve anlaşılır biçimde açıklar.
 
 ---
 ## Amaç

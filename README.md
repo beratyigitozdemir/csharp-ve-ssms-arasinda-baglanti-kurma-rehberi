@@ -39,7 +39,8 @@ C# ile SQL Server arasında bağlantı kurma sürecine dair temel kavramları bi
 │   ├── 📖 03-kontrol-edilmesi-gereken-baglanti-ayarlari.md
 │   ├── 📖 04-connection-string.md
 │   ├── 📖 05-sql-verisini-csharp-tarafinda-kullanma.md
-│   └── 📖 06-olasi-hatalar-ve-kritik-noktalar.md
+│   ├── 📖 06-olasi-hatalar-ve-kritik-noktalar.md
+│   └── 📝 README.md
 │
 ├── 📁 sqlserverconnection/
 │   ├── 📁 sqlserverconnection/
@@ -49,8 +50,8 @@ C# ile SQL Server arasında bağlantı kurma sürecine dair temel kavramları bi
 │   ├── 🛠️  sqlserverconnection.sln
 │   └── 📝 README.md
 │
-├── © LICENSE
-└── 📝 README.md
+├── 📝 README.md
+└── © LICENSE
 
 ```
 
@@ -75,6 +76,11 @@ Aşağıdaki içerik tablosu, bu rehberde ele alınan konulara hızlı erişim s
 - [Connection String](baglanti-adimlari/04-connection-string.md)
 - [SQL Verisini C#'ta Kullanma](baglanti-adimlari/05-sql-verisini-csharp-tarafinda-kullanma.md)
 - [Olası Hatalar ve Kritik Noktalar](baglanti-adimlari/06-olasi-hatalar-ve-kritik-noktalar.md)
+
+> Öneri:
+Rehberin tamamından en iyi şekilde faydalanabilmek için, aşağıdaki bağlantılara geçmeden önce `README` dosyasını **dikkatlice incelemeniz** tavsiye edilir.
+
+`README` **dosyası için tıklayın** → [README](baglanti-adimlari/README.md)
 
 ---
 
