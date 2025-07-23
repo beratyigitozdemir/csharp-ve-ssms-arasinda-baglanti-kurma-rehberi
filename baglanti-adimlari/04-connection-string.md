@@ -10,9 +10,9 @@
 
 Veritabanı bağlantısının başarılı şekilde kurulabilmesi için, **bağlantı cümlesinin** doğru ve eksiksiz tanımlanması gerekir. Connection string içinde sunucu adı, veritabanı adı, kimlik doğrulama yöntemi gibi bilgilerin yer alması, **bağlantı güvenliği** ve **kararlılığı açısından** çok önemlidir.
 
-Hatalı tanımlanmış bir connection string; **bağlantı hatalarına**, **yetki sorunlarına** veya **veritabanına erişememe problemlerine** yol açabilir. 
+**Hatalı tanımlanmış bir connection string; bağlantı hatalarına, yetki sorunlarına veya veritabanına erişememe problemlerine yol açabilir.**
 
-**Bu nedenle, bağlantı cümlesinin yapısının ve bileşenlerini iyi anlamak büyük önem taşır.**
+> **Bu nedenle, bağlantı cümlesinin yapısının ve bileşenlerini iyi anlamak büyük önem taşır.**
 
 ---
 
@@ -32,7 +32,7 @@ string connectionString = "Server=BERAT;Database=KisiVeritabani;Integrated Secur
 
 | Bileşen                     | Açıklama                                                                                                                                                     |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `Server=BERAT`               | SQL Server’ın kurulu olduğu bilgisayarın adıdır. SSMS kurulumu sırasında genellikle varsayılan olarak atanır.                                               |
+| `Server=BERAT`               | SQL Server’ın kurulu olduğu bilgisayarın adıdır. SQL Server kurulumu sırasında genellikle varsayılan olarak atanır.                                               |
 | `Database=KisiVeritabani`    | Bağlanmak istenilen veritabanının adıdır. Uygulamanın işlemlerini bu veritabanı üzerinden gerçekleştirmesi beklenir.                                       |
 | `Integrated Security=True`  | Windows Authentication kullanıldığını belirtir. Kullanıcı adı/parola yazılmaz, oturum bilgisi otomatik olarak kullanılır.                                  |
 | `TrustServerCertificate=True`| SQL Server’ın SSL sertifikasını doğrulamaz; geliştirme ortamlarında sertifika eksikliğinden kaynaklanan bağlantı hatalarını önlemek için kullanılır. Üretim ortamlarında güvenlik açısından önerilmez. |
