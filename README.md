@@ -1,6 +1,6 @@
 # C# ile SSMS Arasında Bağlantı Kurma - Rehber
 
-Bu rehber, C# uygulamaları ile SQL Server Management Studio (SSMS) arasında bağlantı kurma sürecini kapsamlı bir biçimde ele alır. Bağlantı için izlenmesi gereken adımları, **connection string** gibi kritik noktaları birlikte açıklayarak, güvenli ve kararlı bir bağlantının nasıl sağlanacağını göstermeyi hedefler.
+Bu rehber, C# uygulamaları ile SQL Server Management Studio (SSMS) arasında bağlantı kurma sürecini kapsamlı bir biçimde ele alır. Bağlantı için izlenmesi gereken adımları, **Connection String** gibi kritik noktaları birlikte açıklayarak, güvenli ve kararlı bir bağlantının nasıl sağlanacağını göstermeyi hedefler.
 
 ---
 ## Rehberin Amacı
@@ -14,7 +14,7 @@ C# ile SQL Server arasında bağlantı kurma sürecine dair temel kavramları bi
 **Hedef Kitle:** Veritabanı bağlantısı kurma sürecine yeni başlayan ya da C# ile SQL Server arasında bağlantı kurma konusunda deneyimi olmayan kişiler.
 
 - C# uygulamaları ile SQL Server arasında nasıl bağlantı kurulacağını adım adım açıklamak.
-- **Connection String** (bağlantı dizesi) yapısını tanıtıp öğretmek.
+- **Connection String** (bağlantı cümlesi) yapısını tanıtıp öğretmek.
 - SQL Server yapılandırma ve temel ayarlarını sade bir dille anlatmak.
 
 ### 2. Deneyimli Geliştiriciler
@@ -50,8 +50,8 @@ C# ile SQL Server arasında bağlantı kurma sürecine dair temel kavramları bi
 │   ├── 🛠️  sqlserverconnection.sln
 │   └── 📝 README.md
 │
-├── 📝 README.md
-└── © LICENSE
+├── © LICENSE
+└── 📝 README.md
 
 ```
 
