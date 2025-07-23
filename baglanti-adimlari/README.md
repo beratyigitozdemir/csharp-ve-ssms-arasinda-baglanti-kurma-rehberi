@@ -34,7 +34,7 @@ Bu rehberin amacı, bağlantı kurma sürecini parçalara ayırarak anlaşılır
 
 Artık bu rehberin sonunda, bir C# uygulamasını SQL Server ile nasıl entegre edeciğinizi adım adım öğrenmiş olacak; bağlantı kurma, veri kaydetme, listeleme gibi temel işlemleri kendi projelerinizde uygulayabilecek düzeye geleceksiniz.
 
-Rehbere başlamak için `Veritabanı ve WinForms Projesi oluşturma` adımına tıklayarak ilk bölüme geçebilirsiniz.
+Rehbere başlamak için `Veritabanı ve WinForms Projesi Oluşturma` adımına tıklayarak ilk bölüme geçebilirsiniz.
 
 👇 İlk adım için tıklayın:  
 🔗 [Veritabanı ve WinForms Projesi Oluşturma](./01-veritabani-ve-winforms-projesi-olusturma.md)
