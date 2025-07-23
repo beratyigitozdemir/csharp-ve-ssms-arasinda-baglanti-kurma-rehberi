@@ -31,9 +31,8 @@ Bu hata, SQL Server'a bağlantı kurulamaması durumunda oluşur. Hata kodu `Err
 > Önerilen Adımlar:
 
 1. **SQL Server servisi açık mı kontrol edin.**
-2. **Connection String yapısında girdiğin bilgilerin doğru olduğundan emin olun ve eksiklik var mı kontrol edin.**
-3. **Yapılması ve kontrol edilmesi gereken bağlantı ayarları doğru yapılandırıldı mı?** → `TCP/IP Protokolü` **açık mı emin olun**
-
+2. **Yapılması ve kontrol edilmesi gereken bağlantı ayarları doğru yapılandırıldı mı?** → `TCP/IP Protokolü` **açık mı emin olun**
+3. **Connection String yapısında girdiğiniz bilgilerin doğru olduğundan emin olun ve eksiklik var mı kontrol edin.**
 
 ### 2. NuGet Paketi Eksik veya Referans Hatası
 
@@ -56,8 +55,8 @@ Bu kısım, bağlantı sürecindeki **kritik noktaları hatırlatarak**, olası 
 
 > Bağlantı sürecinde dikkate alınması gereken kritik noktalar:
 
-- Belirtilen NuGet paketini projeye yüklediğinizden ve doğru namespace kullandığınızdan emin olun. → [NuGet Paketi Kurma Bölümü](./02-nuget-paketi-kurma.md)
-- Kontrol edilmesi gereken bağlantı ayarlarını gözden geçirin ve gerekli kısımlardan emin olun. → [Bağlantı Ayarları Bölümü](./03-baglanti-ayarlari.md)
+- Belirtilen NuGet paketini projeye yüklediğinizden ve doğru namespace kullandığınızdan emin olun. → [NuGet Paketi Kurma Bölümü](./02-nuget-paketi-kurulumu.md)
+- Kontrol edilmesi gereken bağlantı ayarlarını gözden geçirin ve gerekli kısımlardan emin olun. → [Bağlantı Ayarları Bölümü](./03-kontrol-edilmesi-gereken-baglanti-ayarlari.md)
 - SQL **bağlantı cümlenizin (connection string)** doğru yapılandırıldığından emin olun. → [Connection String Bölümü](./04-connection-string.md)
 
 ---
