@@ -1,4 +1,4 @@
-# SQL Verisini C#'ta Kullanma
+# SQL Verisini C# Tarafında Kullanma
 
 Bir önceki bölümde, **C# uygulamalarının veritabanına bağlanabilmesi için gerekli olan Connection String yapısı** detaylı şekilde incelenmiştir.
 
