@@ -89,5 +89,3 @@ Rehberin tamamından en iyi şekilde faydalanabilmek için, aşağıdaki bağlan
 Bu repodaki içerikler [MIT Lisansı](LICENSE) ile korunmaktadır.
 
 © 2025 Berat Yiğit Özdemir
-
----
