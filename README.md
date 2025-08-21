@@ -91,20 +91,3 @@ Bu repodaki içerikler [MIT Lisansı](LICENSE) ile korunmaktadır.
 © 2025 Berat Yiğit Özdemir
 
 ---
-
-| Kriter               | Edge AI                                                                 | Cloud AI                                                                 |
-|------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| **Çalışma Yeri**    | Cihaz üzerinde (telefon, kamera, IoT, araç)                             | Bulut sunucuları (AWS, Google Cloud, Azure vb.)                          |
-| **Gecikme**         | Çok düşük – anlık karar verebilir (milisaniye düzeyi)                   | Daha yüksek – veriler buluta gidip geldiği için gecikme olabilir               |
-| **Bağımlılık**     | İnternet olmadan çalışabilir                                            | İnternet bağlantısı zorunlu                                              |
-| **Gizlilik**        | Veriler cihazdan çıkmaz, daha güvenlidir                                | Veriler buluta gider → gizlilik riski daha yüksek                        |
-| **İşlem Gücü**      | Sınırlı (küçük, optimize edilmiş modeller çalıştırılabilir)             | Çok yüksek (devasa AI modelleri ve büyük veri kümeleri işlenebilir)         |
-| **Enerji**             | Cihaz bataryasına yük bindirebilir, düşük güç için optimize gerekir     | Sunucu tarafında enerji yoğun ama cihaz için yük yok                     |
-| **Maliyet**          | Başlangıçta cihaz optimizasyonu maliyetli olabilir ama uzun vadede ucuz | Kullanım başına ücret (cloud servis abonelikleri, API çağrıları)             |
-| **Örnek**          | Yüz tanıma, IoT cihazları, otonom araç, sağlık cihazları               | ChatGPT, Google Translate, Netflix önerileri, banka dolandırıcılık analizi |
-| **Güçlü Yönü**       | Hız, gizlilik, bağımsızlık                                              | Ölçeklenebilirlik, yüksek işlem gücü, büyük veri analizi                 |
-| **Zayıf Yönü**          | Donanım sınırlamaları, büyük modelleri çalıştıramaz                    | Gizlilik sorunları, internet bağımlılığı, gecikme                        |
-
-
-
----
